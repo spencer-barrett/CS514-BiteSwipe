@@ -1,7 +1,12 @@
 # SideQuest Marketing Site
 
-### *First ensure you have [node.js](https://nodejs.org/en/download) installed* 
+### Prerequisites:
 
+*First ensure you have [node.js](https://nodejs.org/en/download) installed* 
+
+---
+
+### First setup
 1. clone the repository (if you have not already done so).
 
 ```sh
