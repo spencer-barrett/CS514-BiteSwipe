@@ -1,13 +1,26 @@
-# Astro Starter Kit: Minimal
+# SideQuest Marketing Site
+
+### *First ensure you have [node.js](https://nodejs.org/en/download) installed* 
+
+1. clone the repository (if you have not already done so).
 
 ```sh
-npm create astro@latest -- --template minimal
+git clone https://github.com/spencer-barrett/CS514-SideQuest.git
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+2. navigate to the marketing directory:
+   
+```sh
+cd apps/marketing
+```
 
-## 🚀 Project Structure
+3. Install dependencies:
 
+```sh
+npm install
+```
+
+---
 Inside of your Astro project, you'll see the following folders and files:
 
 ```text
@@ -40,4 +53,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [their documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
