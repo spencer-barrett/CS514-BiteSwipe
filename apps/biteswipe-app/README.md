@@ -1,78 +1,56 @@
-# React + TypeScript + Vite
+# BiteSwipe — Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React frontend for BiteSwipe. It lives in `apps/biteswipe-app` within the monorepo.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Install these before anything else.
 
-## React Compiler
+| Tool | Version | Check |
+| --- | --- | --- |
+| [Git](https://git-scm.com/downloads) | any recent | `git --version` |
+| [Node.js](https://nodejs.org/) | 22 LTS or newer | `node --version` |
+| npm | ships with Node | `npm --version` |
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## 1. Clone the repository
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone https://github.com/spencer-barrett/CS514-BiteSwipe
+cd CS514-Biteswipe
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd apps/biteswipe-app
+npm install
 ```
+
+## 3. Run the dev server
+
+```bash
+npm run dev
+```
+
+Open the URL printed in the terminal (usually http://localhost:5173). The page reloads automatically when you save changes.
+
+## Other scripts
+
+| Command | What it does |
+| --- | --- |
+| `npm run dev` | Start the dev server with hot reload |
+| `npm run build` | Type-check and build for production into `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm run lint` | Run ESLint |
+
+
+## Troubleshooting
+
+**`command not found: npm` or `node`** — Node isn't installed or isn't on your PATH. If you used nvm, restart your terminal or run `nvm use --lts`.
+
+**Errors after pulling new changes** — dependencies may have changed. Run `npm install` again.
+
+**Port 5173 already in use** — another dev server is running. Stop it, or Vite will pick the next free port automatically.
+
+**Blank page or Firebase errors in the console** — check that every value in `.env` is filled in, then restart `npm run dev`. Vite only reads `.env` at startup.
