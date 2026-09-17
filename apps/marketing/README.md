@@ -10,7 +10,7 @@
 1. clone the repository (if you have not already done so).
 
 ```sh
-git clone https://github.com/spencer-barrett/CS514-SideQuest.git
+git clone https://github.com/spencer-barrett/CS514-BiteSwipe.git
 ```
 
 2. navigate to the marketing directory:
