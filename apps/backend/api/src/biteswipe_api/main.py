@@ -1,6 +1,6 @@
+from biteswipe_api.schemas.Health import HealthResponse
 from fastapi import FastAPI
 
-from src.schemas.Health import HealthResponse
 
 app = FastAPI()
 
