@@ -55,7 +55,7 @@ This creates `.venv/`, installs Python 3.12 if needed, and installs every depend
 ## 3. Run the server
 
 ```bash
-uv run uvicorn biteswipe_api.main:app --reload
+uv run --env-file ../.env.local uvicorn biteswipe_api.main:app --reload
 ```
 
 - Health check: http://localhost:8000/api/health
