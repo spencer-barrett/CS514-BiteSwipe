@@ -8,6 +8,7 @@ from fastapi import Depends
 from biteswipe_api.firebase import get_db
 from biteswipe_api.routers import restaurants
 from biteswipe_api.routers import restaurants, users
+from fastapi.middleware.cors import CORSMiddleware
 
 
 
@@ -22,6 +23,13 @@ app = FastAPI(lifespan=lifespan)
 
 app.include_router(restaurants.router)
 app.include_router(users.router)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["*"],
+    allow_headers=["Authorization", "Content-Type"],
+)
 
 
 @app.get("/")
