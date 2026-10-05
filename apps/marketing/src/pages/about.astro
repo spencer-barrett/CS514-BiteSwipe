@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const team = [
+    {name: "Spencer Barrett", role: "Frontend: Sign Up Page" },
+    { name: "Vineet Gupta", role: "Backend (FastAPI)" },
+    { name: "Nick Garza", role: "Frontend: Blog Page" },
+    { name: "Mikai Miranda", role: "Frontend: About page" },
+];
+---
+
+<Layout>
+    <main class="hero">
+        <div class="overlay"></div>
+        <div class="content gap-6">
+            <h1>About <span>BiteSwipe</span></h1>
+
+            <p class="text-white max-w-2xl">
+                BiteSwipe is a software company created by a team of SDSU CS514 students. 
+                We're building a database-driven app that helps hungry people discover restaurants
+                through a simple swipe, with a filtering system to ensure the best options available.
+            </p>
+
+            <h2>Our Mission</h2>
+            <p class="text-white max-w-2xl">
+                To make every dining decision quick, confident, and stress-free by matching you to restaurants that fit your taste, budget and location. 
+                To find what's right, you can rely on BiteSwipe!
+            </p>
+            <h2>The Problem</h2>
+            <p class="text-white max-w-2xl">
+                Finding a restaurant can be frustrating after scrolling through endless reviews and lists.
+                There are many choices and factors to weigh in, like taste, budget and location.
+                A simple decision can turn into a long search and when you're eating with others,
+                finding the right place everyone likes is much harder.
+            </p>
+
+            <h2>Value to Users</h2>
+            <p class="text-white max-w-2xl">
+                With BiteSwipe, you spend less time searching and more time eating. 
+                With our swipe-based approach, you can easily find restaurants that fit your preferences
+                in terms of rating, price, distance and cuisine. Whether you are craving something familiar or
+                trying something new, BiteSwipe helps you decide with confidence. 
+            </p>
+
+            <h2>Meet the Team</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl w-full">
+                {team.map((member) => (
+                    <div class="rounded-xl bg-white/10 p-4 text-white">
+                    <p class="font-bold">{member.name}</p>
+                    <p class="text-sm">{member.role}</p>
+                </div>
+                ))}
+            </div>
+        </div>
+    </main>
+</Layout>
