@@ -30,4 +30,4 @@ class Restaurant(BaseModel):
 
 
 class NearbyRestaurant(Restaurant):
-    distanceKm: float
+    distanceMi: float
