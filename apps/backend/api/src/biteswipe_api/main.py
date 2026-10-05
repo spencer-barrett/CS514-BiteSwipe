@@ -6,6 +6,9 @@ from biteswipe_api.firebase import init_firebase
 from biteswipe_api.schemas.Health import HealthResponse
 from fastapi import Depends
 from biteswipe_api.firebase import get_db
+from biteswipe_api.routers import restaurants
+
+
 
 
 @asynccontextmanager
@@ -15,6 +18,8 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+
+app.include_router(restaurants.router)
 
 
 @app.get("/")
