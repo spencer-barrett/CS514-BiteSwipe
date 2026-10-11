@@ -1,7 +1,9 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class UserResponse(BaseModel):
-    uid: str
-    email: str | None = None
-    displayName: str | None = None
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    email: str
+    display_name: str | None
