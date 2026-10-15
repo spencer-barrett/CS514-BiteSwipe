@@ -7,9 +7,9 @@ export function Home() {
   const { user, logOut } = useAuth();
   const [busy, setBusy] = useState(false);
 
-  const [profile, setProfile] = useState<{ id: number; email: string } | null>(
-    null,
-  );
+  // const [profile, setProfile] = useState<{ id: number; email: string } | null>(
+  //   null,
+  // );
 
   useEffect(() => {
     apiFetch("/api/me")
