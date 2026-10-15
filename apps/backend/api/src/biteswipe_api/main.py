@@ -8,7 +8,7 @@ from biteswipe_api.config import get_settings
 from biteswipe_api.firebase import init_firebase
 from biteswipe_api.routers import restaurants, users
 from biteswipe_api.schemas.health import HealthResponse
-
+from biteswipe_api.routers import restaurants, swipes, users
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
@@ -27,6 +27,7 @@ app.add_middleware(
 
 app.include_router(restaurants.router)
 app.include_router(users.router)
+app.include_router(swipes.router)
 
 
 @app.get("/api/health")

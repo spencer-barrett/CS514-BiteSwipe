@@ -130,7 +130,7 @@ class RestaurantPhoto(Base):
     )
     photo_ref: Mapped[str] = mapped_column(Text)
     position: Mapped[int] = mapped_column(SmallInteger)
-
+    url: Mapped[str | None] = mapped_column(Text)
     restaurant: Mapped[Restaurant] = relationship(back_populates="photos")
 
 

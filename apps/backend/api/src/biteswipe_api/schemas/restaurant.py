@@ -36,17 +36,21 @@ class RestaurantSummary(BaseModel):
     cuisines: list[str]
     # Reads `photos` off the ORM object, but also accepts its own name so a
     # dumped model can be re-validated (NearbyRestaurant does this).
-    photo_refs: list[str] = Field(validation_alias=AliasChoices("photos", "photo_refs"))
+    photo_urls: list[str] = Field(
+        validation_alias=AliasChoices("photos", "photo_urls")
+    )
 
     @field_validator("cuisines", mode="before")
     @classmethod
     def _flatten_cuisines(cls, value: Sequence[Any]) -> list[str]:
         return [getattr(item, "name", item) for item in value]
 
-    @field_validator("photo_refs", mode="before")
+    @field_validator("photo_urls", mode="before")
     @classmethod
     def _flatten_photos(cls, value: Sequence[Any]) -> list[str]:
-        return [getattr(item, "photo_ref", item) for item in value]
+        # Photos with no fetched url are dropped rather than emitting nulls
+        # the client would have to filter.
+        return [u for item in value if (u := getattr(item, "url", None))]
 
 
 class RestaurantDetail(RestaurantSummary):

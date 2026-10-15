@@ -110,3 +110,5 @@ coverage/
 .DS_Store?
 
 
+apps/backend/api/src/biteswipe_api/scripts/check_photo_refs.py
+apps/backend/api/src/biteswipe_api/scripts/fetch_photos.py
