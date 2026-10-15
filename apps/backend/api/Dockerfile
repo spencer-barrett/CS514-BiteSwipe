@@ -1,6 +1,7 @@
-# Build context is the REPO ROOT, not apps/backend/api -- heroku.yml builds
-# from the directory it sits in and offers no way to change the context, so
-# every COPY path below is written relative to the repo root.
+# Build context is this file's own directory (apps/backend/api) -- that is
+# how Heroku builds from heroku.yml -- so every path below is relative to it.
+# To build locally the same way:
+#   docker build -t biteswipe-api apps/backend/api
 
 FROM python:3.12-slim
 
@@ -17,11 +18,13 @@ WORKDIR /app
 # Dependencies first, in their own layer: these change far less often than
 # source, so edits to the app skip the whole install step on rebuild.
 # --no-install-project installs only the dependencies, not biteswipe_api.
-COPY apps/backend/api/pyproject.toml apps/backend/api/uv.lock ./
+COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 
 # Now the application itself: src/, alembic.ini, migrations/, data/.
-COPY apps/backend/api/ ./
+# .dockerignore keeps .venv and friends out -- a macOS .venv copied into a
+# Linux image produces broken binaries and a much larger image.
+COPY . ./
 RUN uv sync --frozen --no-dev
 
 # Shell form on purpose -- $PORT is injected by Heroku at runtime and has to
