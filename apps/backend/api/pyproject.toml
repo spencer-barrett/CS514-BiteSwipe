@@ -22,7 +22,9 @@ packages = ["src/biteswipe_api"]
 
 [dependency-groups]
 dev = [
+    "boto3>=1.43.114",
     "httpx>=0.28.1",
+    "pillow>=12.3.0",
     "pyright>=1.1.414",
     "pytest>=9.1.1",
     "ruff>=0.16.8",
