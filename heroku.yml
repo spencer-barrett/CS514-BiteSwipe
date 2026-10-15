@@ -1,0 +1,28 @@
+# Heroku container deploys. Lives at the repo root; the build context is this
+# directory, which is why the Dockerfile's COPY paths start with apps/.
+#
+# One-time setup:
+#   heroku create biteswipe-api --stack=container
+#   heroku config:set DATABASE_URL="postgresql+psycopg://...neon.../db?sslmode=require"
+#   heroku config:set FRONTEND_ORIGIN="https://<your>.pages.dev"
+#   heroku config:set FIREBASE_PROJECT_ID="biteswipe-b543a"
+#   heroku config:set FIREBASE_CLIENT_EMAIL="...@....iam.gserviceaccount.com"
+#   heroku config:set FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
+#   git push heroku chore/deploy:main
+#
+# Do NOT set FIREBASE_AUTH_EMULATOR_HOST in production -- if it is present,
+# firebase-admin stops verifying token signatures entirely.
+
+build:
+  docker:
+    web: apps/backend/api/Dockerfile
+
+# Runs after the image builds, before the new release goes live. A failing
+# migration aborts the release instead of shipping a broken app.
+release:
+  image: web
+  command:
+    - alembic upgrade head
+
+run:
+  web: uvicorn biteswipe_api.main:app --host 0.0.0.0 --port $PORT
