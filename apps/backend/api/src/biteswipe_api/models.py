@@ -36,9 +36,7 @@ class User(Base):
         DateTime(timezone=True), server_default=func.now()
     )
 
-    swipes: Mapped[list[Swipe]] = relationship(
-        back_populates="user", cascade="all, delete-orphan"
-    )
+    swipes: Mapped[list[Swipe]] = relationship(back_populates="user", cascade="all, delete-orphan")
 
 
 class Cuisine(Base):
@@ -55,12 +53,8 @@ class Cuisine(Base):
 class Restaurant(Base):
     __tablename__ = "restaurants"
     __table_args__ = (
-        CheckConstraint(
-            "price_level BETWEEN 1 AND 4", name="ck_restaurants_price_level"
-        ),
-        CheckConstraint(
-            "external_rating BETWEEN 0 AND 5", name="ck_restaurants_rating"
-        ),
+        CheckConstraint("price_level BETWEEN 1 AND 4", name="ck_restaurants_price_level"),
+        CheckConstraint("external_rating BETWEEN 0 AND 5", name="ck_restaurants_rating"),
         CheckConstraint("lat BETWEEN -90 AND 90", name="ck_restaurants_lat"),
         CheckConstraint("lng BETWEEN -180 AND 180", name="ck_restaurants_lng"),
         # No UNIQUE on google_place_id yet: six IDs in the seed data are each
@@ -127,9 +121,7 @@ class RestaurantCuisine(Base):
 class RestaurantPhoto(Base):
     __tablename__ = "restaurant_photos"
     __table_args__ = (
-        UniqueConstraint(
-            "restaurant_id", "position", name="uq_restaurant_photos_position"
-        ),
+        UniqueConstraint("restaurant_id", "position", name="uq_restaurant_photos_position"),
     )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
@@ -145,19 +137,14 @@ class RestaurantPhoto(Base):
 class RestaurantHour(Base):
     # One row per opening interval. No row for a day means closed.
 
-
     __tablename__ = "restaurant_hours"
     __table_args__ = (
-        CheckConstraint(
-            "day_of_week BETWEEN 0 AND 6", name="ck_restaurant_hours_dow"
-        ),
+        CheckConstraint("day_of_week BETWEEN 0 AND 6", name="ck_restaurant_hours_dow"),
         Index("ix_restaurant_hours_lookup", "restaurant_id", "day_of_week"),
     )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
-    restaurant_id: Mapped[int] = mapped_column(
-        ForeignKey("restaurants.id", ondelete="CASCADE")
-    )
+    restaurant_id: Mapped[int] = mapped_column(ForeignKey("restaurants.id", ondelete="CASCADE"))
     day_of_week: Mapped[int] = mapped_column(SmallInteger)  # 0 = Sunday
     open_time: Mapped[dt.time] = mapped_column(Time)
     close_time: Mapped[dt.time] = mapped_column(Time)
@@ -179,12 +166,8 @@ class Swipe(Base):
     )
 
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
-    user_id: Mapped[int] = mapped_column(
-        ForeignKey("users.id", ondelete="CASCADE")
-    )
-    restaurant_id: Mapped[int] = mapped_column(
-        ForeignKey("restaurants.id", ondelete="CASCADE")
-    )
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
+    restaurant_id: Mapped[int] = mapped_column(ForeignKey("restaurants.id", ondelete="CASCADE"))
     liked: Mapped[bool] = mapped_column(Boolean)
     created_at: Mapped[dt.datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()

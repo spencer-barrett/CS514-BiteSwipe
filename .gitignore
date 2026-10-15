@@ -110,4 +110,3 @@ coverage/
 .DS_Store?
 
 
-apps/backend/api/src/biteswipe_api/scripts

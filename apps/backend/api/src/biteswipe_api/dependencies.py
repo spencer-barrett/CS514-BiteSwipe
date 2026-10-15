@@ -14,13 +14,10 @@ from sqlalchemy.orm import Session
 from biteswipe_api.db import get_session
 from biteswipe_api.models import User
 
-
 bearer_scheme = HTTPBearer(auto_error=False)
 
 DbSession = Annotated[Session, Depends(get_session)]
-Credentials = Annotated[
-    HTTPAuthorizationCredentials | None, Depends(bearer_scheme)
-]
+Credentials = Annotated[HTTPAuthorizationCredentials | None, Depends(bearer_scheme)]
 
 
 def _unauthorized(detail: str) -> HTTPException:
@@ -75,7 +72,6 @@ def get_current_user(claims: TokenClaims, session: DbSession) -> User:
     email = claims.get("email")
     name = claims.get("name")
 
-    
     session.execute(
         insert(User)
         .values(

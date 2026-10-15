@@ -1,0 +1,203 @@
+====================================================================
+CLEANING REPORT
+====================================================================
+read:    554 records
+kept:    550
+dropped: 4
+
+rows written:
+  restaurants                 550
+  cuisines                     97
+  restaurant_cuisines        1086
+  restaurant_photos          1633
+  restaurant_hours           3690
+
+distinct cuisines: 97
+  singletons (review for merging): afghan, african, austrian, bagels, boba, brazilian, british, burritos, cajun & creole, canadian, caribbean, central-italian, comfort, cup cakes, dive, gastropub, gelato, german, global, hot dogs, mongolian, nepali, polynesian, puerto rican, russian, salads, scandinavian, sicilian, tasting, turkish, tuscan
+
+issues: 169 (16 error, 31 warning, 122 info)
+
+[ERROR] shared_place_id (12)
+  4315787250178  Starbucks: ChIJv9GWsnX524ARj5v2ITCPnU4 also used by: Starbucks (10565 Scripps Poway Parkway), Starbucks (10675 Scripps Poway Pkwy)
+  7914293010855  Starbucks: ChIJv9GWsnX524ARj5v2ITCPnU4 also used by: Starbucks (10565 Scripps Poway Parkway), Starbucks (10675 Scripps Poway Pkwy)
+  6669905857912  Little Chef Chinese Take-Out: ChIJ38jSVjeq3oARAcfSz_27IO0 also used by: Little Chef Chinese Take-Out (4910 Newport Ave), Little Chef Restaurant (4902 Newport Ave Ocean Beach)
+  18635957483483  Little Chef Restaurant: ChIJ38jSVjeq3oARAcfSz_27IO0 also used by: Little Chef Chinese Take-Out (4910 Newport Ave), Little Chef Restaurant (4902 Newport Ave Ocean Beach)
+  2310871106193  The Radical Beet: ChIJeZ68rXFX2YARXewtR-2lRzU also used by: The Radical Beet (6334 El Cajon Blvd), La Casita De Vero (6334 El Cajon Blvd)
+  48754489924608  La Casita De Vero: ChIJeZ68rXFX2YARXewtR-2lRzU also used by: The Radical Beet (6334 El Cajon Blvd), La Casita De Vero (6334 El Cajon Blvd)
+  30736342080960  Cb Asian Bowls: ChIJH4ILl0v_24ARDgQ9mQLdpds also used by: Cb Asian Bowls (7950 Convoy Ct), Bonchon (4690 Convoy St Suite 102)
+  12100305862075  Bonchon: ChIJH4ILl0v_24ARDgQ9mQLdpds also used by: Cb Asian Bowls (7950 Convoy Ct), Bonchon (4690 Convoy St Suite 102)
+  16194528222264  Denny's: ChIJFclKeFiq3oARngybt9yL9QM also used by: Denny's (3920 W. Point Loma), Denny's (1601 Rosecrans St.)
+  15761807415921  Denny's: ChIJFclKeFiq3oARngybt9yL9QM also used by: Denny's (3920 W. Point Loma), Denny's (1601 Rosecrans St.)
+  28901676497598  The Coffee Bean & Tea Leaf: ChIJjTh2bgD624ARGp8PZlPP5G4 also used by: The Coffee Bean & Tea Leaf (12070 Caramel Mountain Rd #296), The Coffee Bean & Tea Leaf (10550 Craftsman Way)
+  7254228904014  The Coffee Bean & Tea Leaf: ChIJjTh2bgD624ARGp8PZlPP5G4 also used by: The Coffee Bean & Tea Leaf (12070 Caramel Mountain Rd #296), The Coffee Bean & Tea Leaf (10550 Craftsman Way)
+
+[ERROR] lat_out_of_range (4)
+  11645335003670  La Dona: lat 36.531544
+  11083164025952  Hidden Craft: lat 34.14649
+  18922220230891  Tavola Nostra: lat 36.531544
+  16114131646181  Rare Form: lat 36.21638
+
+[WARNING] suspicious_overnight (25)
+  5644728535545  Ichiban: sun 11:30-09:00 reads as a ~24h span
+  23891334425568  Padadak Korean Chicken: sun 11:00-09:00 reads as a ~24h span
+  23891334425568  Padadak Korean Chicken: mon 11:00-09:00 reads as a ~24h span
+  23891334425568  Padadak Korean Chicken: tue 11:00-09:00 reads as a ~24h span
+  23891334425568  Padadak Korean Chicken: wed 11:00-09:00 reads as a ~24h span
+  23891334425568  Padadak Korean Chicken: thu 11:00-09:00 reads as a ~24h span
+  23891334425568  Padadak Korean Chicken: fri 11:00-10:00 reads as a ~24h span
+  29517152346760  The Cordova: mon 17:00-12:00 reads as a ~24h span
+  29517152346760  The Cordova: tue 17:00-12:00 reads as a ~24h span
+  29517152346760  The Cordova: wed 17:00-12:00 reads as a ~24h span
+  29517152346760  The Cordova: thu 17:00-12:00 reads as a ~24h span
+  27283619000084  Pushkin Russian Restaurant & Bar: mon 17:00-10:00 reads as a ~24h span
+  27283619000084  Pushkin Russian Restaurant & Bar: tue 17:00-10:00 reads as a ~24h span
+  27283619000084  Pushkin Russian Restaurant & Bar: wed 17:00-10:00 reads as a ~24h span
+  27283619000084  Pushkin Russian Restaurant & Bar: thu 17:00-10:00 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: sun 10:00-09:00 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: mon 11:00-09:00 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: tue 11:00-09:00 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: wed 11:00-09:00 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: thu 11:00-09:00 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: fri 11:00-09:30 reads as a ~24h span
+  7433014734570  Ketch Grill & Taps: sat 11:00-09:30 reads as a ~24h span
+  2275190290987  Basilico La Pizzeria: sat 12:00-10:00 reads as a ~24h span
+  2275190290987  Basilico La Pizzeria: sun 12:00-10:00 reads as a ~24h span
+  99830887484  Tribute Pizza: wed 17:00-10:00 reads as a ~24h span
+
+[WARNING] missing_zip (2)
+  1629726021000  Rare Society: no zip code
+  35140400453847  Pho Hut And Grill: no zip code
+
+[WARNING] junk_cuisine (2)
+  13868952537580  Hot Licks: dropped 'delete'
+  22691197459188  Greenhaus Eatery: dropped 'delete'
+
+[WARNING] no_cuisines (2)
+  13868952537580  Hot Licks: no usable cuisine tags
+  22691197459188  Greenhaus Eatery: no usable cuisine tags
+
+[INFO] missing_price_level (118)
+  2817011574254  Bub's at the Beach: no price level
+  3625902907472  Breakfast Bitch: no price level
+  2260485175506  Gabriel's Tortilleria: no price level
+  1647171854874  Ashoka The Great: no price level
+  3629807413752  Baskin-Robbins: no price level
+  9019070674782  7-Eleven: no price level
+  4373195787800  Blueprint Cafe: no price level
+  399455802846  Mike Hess Tasting Room: no price level
+  10454759094088  FruitCraft Fermentary & Distillery: no price level
+  1478661367726  Subway: no price level
+  415856232036  Subway: no price level
+  10953842497204  Subway: no price level
+  2269860012739  Laredo Taco Company: no price level
+  3044395774546  MishMash: no price level
+  2577398941767  Starbucks: no price level
+  2681973612992  Subway: no price level
+  4481051070392  7-Eleven: no price level
+  646479426399  Cute Cakes: no price level
+  2268843737918  Poke Chop: no price level
+  5134129525909  Iowa Meat Farms: no price level
+  2417027312271  Subway: no price level
+  237961852090  Wicked Popcorn: no price level
+  7833086986631  Subway: no price level
+  4719534786930  Snoice: no price level
+  467192273650  Subway: no price level
+  5770576138800  Salt & Straw: no price level
+  4984892981289  Knotty Brewing Co.: no price level
+  6010873671825  Subway: no price level
+  12121637954880  Domino's Pizza: no price level
+  7753401090062  Auntie Anne's: no price level
+  8207526592056  Red Lobster: no price level
+  8292508482460  Veranda Fireside Lounge & Restaurant: no price level
+  11189003298477  Ghirardelli Ice Cream & Chocolate Shop: no price level
+  574975222954  El Mango Manila: no price level
+  209686404190  Country Waffles: no price level
+  7598188762508  The Shop: Pizza + Cocktails: no price level
+  12972242561632  7-Eleven: no price level
+  3208623542553  Charles + Dinorah at The Pearl: no price level
+  769886762397  Phantom Lounge and Nightclub: no price level
+  15989043716346  The Kebab Shop: no price level
+  17601110676488  Vin de Syrah: no price level
+  2897596540965  Pali Wine Co. Little Italy Tasting Room: no price level
+  11232121851405  Boardwalk: no price level
+  10893887406710  Taka: no price level
+  13128720402116  Cow By Bear: no price level
+  13471338680800  Yogurtland: no price level
+  1250506394250  Karl Strauss Brewery & Restaurant: no price level
+  14061698176433  Crust Pizzeria: no price level
+  14621601305797  RB Sushi: no price level
+  2355746044176  Coal Bros: no price level
+  23598217639488  Swami's Cafe: no price level
+  2288939895904  Acai House: no price level
+  18393253454043  Sugar Factory: no price level
+  19729205280323  Stars & Stripes Mart: no price level
+  20260940890432  Olala Crepes: no price level
+  13350601370988  Marlene's Tea and Cakes: no price level
+  695727501482  Subway: no price level
+  22100331391912  Subway: no price level
+  5973597105939  Starbucks: no price level
+  7041942847584  Ben & Jerry's: no price level
+  29237714566284  Silver Streak Cafe: no price level
+  1170504559452  7-Eleven: no price level
+  16842070887880  Endzone Pub and Grill: no price level
+  3723732039240  Cold Stone Creamery: no price level
+  1751288434490  7-Eleven: no price level
+  3827580264945  Wawa Cafe: no price level
+  31197438002584  Subway: no price level
+  12652931224000  Brewery & Tasting Room: no price level
+  14961722614891  Vela at Hilton San Diego Bayfront: no price level
+  15958203524886  Gran Havana: no price level
+  16185083357575  Craft House North Park: no price level
+  5230851753402  7-Eleven: no price level
+  32330930319230  7-Eleven: no price level
+  6387532107211  Tahona: no price level
+  29517152346760  The Cordova: no price level
+  35089395751380  7-Eleven: no price level
+  17557697580610  Food2you: no price level
+  34445041105129  Banzai Bar: no price level
+  12543310199630  Bankers Hill Bar & Restaurant: no price level
+  8508935790342  7-Eleven: no price level
+  14617903549632  Sammy's Woodfired Pizza & Grill - Del Mar: no price level
+  2458431987128  7-Eleven: no price level
+  36477292667936  Northgate Market: no price level
+  1665939191938  Grapes & Hops Deli: no price level
+  38551991337755  Cup of Yo Frozen Yogurt: no price level
+  39922725324300  Taco Love Mobile Catering: no price level
+  8517896549774  Extraordinary Desserts: no price level
+  17287739655180  Caked: no price level
+  7231778200740  Juicin'java: no price level
+  19187487635767  North Park Sushi & Grill: no price level
+  7081372333180  The Mrkt: no price level
+  16670607964936  Acapulco Bay Seafood: no price level
+  39464683728624  Luna Grill: no price level
+  40462663146917  Krisp Pizza: no price level
+  43694816954607  7-Eleven: no price level
+  4634757181152  The Patio Marketplace: no price level
+  2275190290987  Basilico La Pizzeria: no price level
+  25558667019850  Carruth Wine Cellars: no price level
+  19349588639535  NASCAR Wings: no price level
+  27692727399885  San Diego Wine & Spirits: no price level
+  13868952537580  Hot Licks: no price level
+  2866201648240  Andell's Bakery & Kitchen: no price level
+  38900987453328  Sweet and Savory Gourmet: no price level
+  8035493269895  7-Eleven: no price level
+  47860938940500  Iceskimo: no price level
+  47439132452352  Citrus Restaurant: no price level
+  36253270826540  7-Eleven: no price level
+  11467893824240  Ryan Bros Coffee Lane Field: no price level
+  9816934646925  Gaslamp Liquor & Deli: no price level
+  18553732406825  7-Eleven: no price level
+  21157581832550  7-Eleven: no price level
+  25121806033383  Poke Chop: no price level
+  28905489335440  7-Eleven: no price level
+  42401799857865  Ding Tea Balboa: no price level
+  41564234398676  Crab Hut: no price level
+  48154560609870  Neu Flavor Ice Cream: no price level
+  42994571092596  Babycakes: no price level
+  24378592339428  Pacifica Breeze Cafe: no price level
+
+[INFO] no_photos (4)
+  3625902907472  Breakfast Bitch: no photo references
+  4373195787800  Blueprint Cafe: no photo references
+  209686404190  Country Waffles: no photo references
+  3827580264945  Wawa Cafe: no photo references

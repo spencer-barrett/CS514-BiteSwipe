@@ -25,7 +25,7 @@ def _using_emulator() -> bool:
 
 
 def _service_account_credentials() -> credentials.Certificate | None:
-    
+
     settings = get_settings()
     project_id = settings.firebase_project_id
     client_email = settings.firebase_client_email
@@ -48,7 +48,7 @@ def _service_account_credentials() -> credentials.Certificate | None:
 
 
 def init_firebase() -> None:
-    
+
     _bridge_emulator_env()
 
     try:

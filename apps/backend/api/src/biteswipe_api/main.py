@@ -1,4 +1,4 @@
-from collections.abc import AsyncIterator
+from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
@@ -9,12 +9,12 @@ from biteswipe_api.firebase import init_firebase
 from biteswipe_api.routers import restaurants, users
 from biteswipe_api.schemas.health import HealthResponse
 
-from collections.abc import AsyncGenerator
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
     init_firebase()
     yield
+
 
 app = FastAPI(lifespan=lifespan)
 

@@ -1,0 +1,551 @@
+id,name,address_line1,city,state,zip,lat,lng,price_level,external_rating,external_rating_count,phone,website,google_place_id,source_id
+1,Hanna's Creamery & Cafe,4485 La Jolla Village Dr Ste F-13,San Diego,CA,92122,32.870136,-117.21162,2,4.5,224,+18582248000,http://hannascreamerycafe.com,ChIJH5rDiaEH3IARWgwq2oydhjc,37651443736
+2,Guava Beach Bar and Grill,3714 Mission Blvd,San Diego,CA,92109,32.78285,-117.25261,2,4.4,1091,+18584886688,http://www.guava-beach.com,ChIJfUz8YuQB3IARaOQxxRvBcjY,3083722876374
+3,Baci Ristorante Italiano,1955 Morena Blvd,San Diego,CA,92110,32.781345,-117.20705,2,4.8,610,+16192752094,http://sandiegobaci.com/,ChIJgQJkaZuq3oAR7H_dkATWX0s,2865720144938
+4,Rare Society,4130 Park Blvd,San Diego,CA,,32.75311,-117.14667,4,4.5,574,+16195016404,http://www.raresocietysd.com/,ChIJc3-gn4lV2YARr3sg0c-3iv8,1629726021000
+5,Harbor Greek Cafe,2556 Laning Rd Ste B-104,San Diego,CA,92106,32.72795,-117.21796,1,4.5,177,+16192243900,http://www.harborgreekcafe.com,ChIJpw_wgwmr3oARJew0Coiw9p4,3274124437048
+6,Bub's at the Beach,1030 Garnet Ave,San Diego,CA,92109,32.79777,-117.25126,,4.4,753,+18582707269,http://bubspb.com,ChIJMeNIt-wB3IARm0_OUdnMyXo,2817011574254
+7,Lotus Thai Cuisine,906 Market St,San Diego,CA,92101,32.71162,-117.15638,2,4.3,771,+16195950115,http://www.lotusthaisd.com,ChIJqWo4SVlT2YARF-nM3sRq30s,136309815504
+8,Breakfast Bitch,3825 5th Ave,San Diego,CA,92103,32.74739,-117.160324,,,0,+16193268186,https://eatbreakfastbitch.com/,ChIJKXdFwNpU2YAR1i4m9yCE6YM,3625902907472
+9,Filiberto's,2399 Ulric St,San Diego,CA,92111,32.78662,-117.1698,1,4.0,486,+18586140278,http://www.filibertos.com,ChIJo6SQb1JV2YARPlfkxa2tFIw,2883582215990
+10,Mitch's Seafood,1403 Scott St,San Diego,CA,92106,32.72414,-117.227234,2,4.6,6339,+16192228787,http://mitchsseafood.menutoeat.com,ChIJ3cvS6aOr3oAR0AQgiCvuPmU,3967418122515
+11,Cupcakes A La Yola,10450 Friars Rd,San Diego,CA,92120,32.792328,-117.09905,2,4.4,105,+16197085088,https://www.cupcakesalayola.com/,ChIJHbxfcepV2YAR7TuD9zEnoLA,4183948454720
+12,The Original Sab-E-Lee,6925 Linda Vista Rd Suite B,San Diego,CA,92111,32.78445,-117.17088,2,4.7,525,+18586506868,http://www.originalsab-e-lee.webs.com,ChIJG6tojidV2YARCaJ4OyM3qY8,1771172621855
+13,Poseidon Project Pints & Pies,4126 Napier St,San Diego,CA,92110,32.782417,-117.20639,1,4.4,232,+16192305334,https://www.facebook.com/poseidonpintsandpies,ChIJ5VwTgpyq3oAR8CDkCPhDHeo,4596495718608
+14,Noodle J-I,7585 Clairemont Mesa Blvd,San Diego,CA,92111,32.83143,-117.15654,1,4.8,134,,,ChIJLQuYo6L_24AR-LwXXWokLow,7602624595110
+15,Gabriel's Tortilleria,2480 Imperial Ave,San Diego,CA,92102,32.70666,-117.14077,,4.7,556,+16192325744,http://www.gabrielmex.com/,ChIJT-Vbq29T2YARULTIojMHSMQ,2260485175506
+16,McDonald's,4711 Mission Bay Drive,San Diego,CA,92109,32.806892,-117.21883,1,3.4,1474,+16197092464,https://www.mcdonalds.com/us/en-us/location/ca/san-diego/4711-mission-bay-drive/25166.html,ChIJocS-k0oA3IARAEEAffMaIOw,5102582341570
+17,Chipotle Mexican Grill,6083 El Cajon Blvd,San Diego,CA,92115,32.761288,-117.06661,1,3.5,549,+16192652417,https://locations.chipotle.com/ca/san-diego/6083-el-cajon-blvd,ChIJu3LNa5dW2YARN0uHJRKJUn0,7104758855895
+18,Starbucks,10565 Scripps Poway Parkway,San Diego,CA,92131,32.93696,-117.09953,1,4.3,220,+18585787828,https://www.starbucks.com/store-locator/store/1024927/scripps-spring-ranch-10565-scripps-poway-parkway-san-diego-ca-921313917,ChIJv9GWsnX524ARj5v2ITCPnU4,4315787250178
+19,Eastern Dinasty,4690 Convoy St Ste 109,San Diego,CA,92111,32.71562,-117.1558,2,4.3,305,+18588361168,,ChIJKS7LLn3_24ARgLFoZSMvpwQ,6889290283017
+20,Hanna's Gourmet,2864 Adams Ave,San Diego,CA,92116,32.762962,-117.13239,2,4.8,400,+16192805600,http://www.hannasgourmetcatering.com/,ChIJR__aBv5U2YARhHPD4n-6a8o,3157143899822
+21,Ashoka The Great,9474 Black Mountain Rd,San Diego,CA,92126,32.89534,-117.12413,,4.0,263,+18586959749,http://ashokasd.com,ChIJI30GJSr524ARX56ldMFbnE8,1647171854874
+22,The Orient Thai Cafe,1315 Garnet Ave,San Diego,CA,92109,32.79842,-117.246,2,4.3,275,+18582708424,http://www.theorientthaicafe.com/,ChIJNy1jweoB3IARPxVgYCLPLlQ,1094354950962
+23,Gelato & Friends,901 Bayfront Ct Ste 101,San Diego,CA,92101,32.7165,-117.17231,1,4.3,62,+16197829241,http://www.gelatoandfriends.com,ChIJXdUAT1xV2YARzWmF3BgV2eo,3475243183973
+24,BeShock Ramen & Sake,1288 Market St,San Diego,CA,92101,32.71169,-117.15305,2,4.4,1823,+16195019612,http://beshockramen.com,ChIJD0zWf15T2YARsn4Jko5KGis,1496721814908
+25,Camino Riviera,2400 India St,San Diego,CA,92101,32.729443,-117.17098,2,4.2,987,+16196853881,http://caminoriviera.com/,ChIJGS0Wi7RU2YARLpyjkjbGnuk,4090444355960
+26,Princess Pub & Grille,1665 India St,San Diego,CA,92101,32.72286,-117.16816,2,4.1,1347,+16197023021,http://www.princesspub.com,ChIJIbQp-61U2YARQYMkelZrQtU,822960776913
+27,Jamba,3305 Rosecrans St Ste A Loma Square,San Diego,CA,92110,32.74796,-117.20707,1,4.3,246,+16195232800,https://locations.jamba.com/ca/san-diego/3305-a-rosecrans-st,ChIJ0SL72-Kq3oARSeouhjHHcRQ,4349644510112
+28,Yakitori Yakyudori and Ramen,4898 Convoy St Ste 101,San Diego,CA,92111,32.830563,-117.153755,2,4.5,1827,+18582682888,http://yakyudori.hinotez.com,ChIJqby0b5f_24ARKwHUcX38S9I,4634776424553
+29,Taste Of The Himalayas,1260 University Ave,San Diego,CA,92103,32.7491,-117.15193,2,4.2,679,+16198885853,http://www.tasteofthehimalayassandiego.com/,ChIJ_85_Od1U2YAR-1IgR66CVto,2872072312400
+30,The Melting Pot,901 5th Ave Gaslamp District,San Diego,CA,92101,32.714657,-117.16004,3,4.5,1197,+16192345554,https://www.meltingpot.com/san-diego-gaslamp-ca/,ChIJX92NdlhT2YARBqvku8E5wZo,8013402833600
+31,Baskin-Robbins,10550 Craftsman Way,San Diego,CA,92127,33.020038,-117.11093,,3.5,90,+18586734000,https://locations.baskinrobbins.com/ca/san-diego/10550-craftsman-way,ChIJI3kAbuL224ARLQUBX09rhmk,3629807413752
+32,Pizza Hut,2340 University Aveune,San Diego,CA,92104,32.7486,-117.13926,1,3.9,291,+16196833222,https://locations.pizzahut.com/ca/san-diego/2340-university-avenue,ChIJW9RFFPFU2YARBgOr7jC1BXg,413473991760
+33,7-Eleven,1670 Kettner Blvd,San Diego,CA,92101,32.722138,-117.169377,,2.9,89,+16196150779,https://www.7-eleven.com/locations/ca/san-diego/1670-kettner-blvd-33458,ChIJI6fAka1U2YAROCGZGbH4kIU,9019070674782
+34,Blueprint Cafe,1805 Newton Ave,San Diego,CA,92113,32.70069,-117.1476,,,0,+16192337010,http://blueprint-cafe.com,ChIJSSLkSWpT2YARsUyV6qhR7Sg,4373195787800
+35,Sovereign Modern Thai Cuisine,1460 J St East Village,San Diego,CA,92101,32.70952,-117.151024,2,4.4,555,+16193105837,https://www.sovereignsandiego.com/,ChIJyQSQmwJT2YARZSW-SUcjtrk,5967846277370
+36,Primos Mexican Food & Cantina,3202 Governor Dr,San Diego,CA,92122,32.85175,-117.21618,1,3.9,290,+18584124688,https://primosmex.com/main/locations,ChIJyf7Elt4A3IARay_AhoTF7pM,3706671302112
+37,Mike Hess Tasting Room,4893 Voltaire St,San Diego,CA,92107,32.75068,-117.24488,,4.6,160,+16197951095,http://www.mikehessbrewing.com/brewery/hoursdirections/-hess-brewing-ocean-beach-tasting-room-sandiego-beer#4819496,ChIJo44ekDiq3oARYS-XgrC1GCM,399455802846
+38,In-N-Out Burger,2910 Damon Ave,San Diego,CA,92109,32.808903,-117.218925,1,4.6,6954,+18007861000,http://locations.in-n-out.com/69,ChIJWzruHEsA3IARf3hTyv_2gT8,5280035153372
+39,FruitCraft Fermentary & Distillery,1477 University Ave,San Diego,CA,92103,32.748493,-117.14943,,4.5,108,+18774846282,http://fruitcraft.com,ChIJa9jXGuhU2YARnYyGIekDLtc,10454759094088
+40,Island Prime,880 Harbor Island Dr,San Diego,CA,92101,32.724117,-117.18867,4,4.6,2624,+16192986802,https://www.cohnrestaurants.com/islandprime,ChIJ6VN5EEGr3oARsKWzNqTsnSM,8784635035242
+41,Lucha Libre Taco Shop,1810 W Washington St,San Diego,CA,92103,32.743156,-117.1816,1,4.3,4346,+16192968226,http://www.luchalibretacoshop.com,ChIJq8oURS6r3oARdtYfAS-k538,16229663833404
+42,Subway,640 Dennery Rd Suite 102,San Diego,CA,92154,32.582013,-117.033218,,3.9,515,+16196901340,https://restaurants.subway.com/united-states/ca/san-diego/640-dennery-rd,ChIJeacL5dVO2YARw8-QFCnLudA,1478661367726
+43,Subway,4310 Genesee Ave. Suite 102,San Diego,CA,92117,32.821719,-117.183604,,3.6,81,+18584928338,https://restaurants.subway.com/united-states/ca/san-diego/4310-genesee-ave,ChIJrcZItHEA3IARaHnrazLg_fU,415856232036
+44,Pizza Pal,5010 Cass St Suite J,San Diego,CA,92109,32.806072,-117.25498,1,4.4,148,+18582707772,http://www.pizzapalmenu.com/,ChIJZQQk_coB3IARxf0vVRq4Za0,7217240905872
+45,Pailin Thai Cafe,16441 Bernardo Center Dr,San Diego,CA,92128,33.012222,-117.07831,2,4.5,480,+18586744665,https://www.thairestaurant-sandiego.com,ChIJNwqVOjP324ARZeyJ1TKjArk,18764371973688
+46,TapShack Kombucha Bar,2232 Sunset Cliffs Blvd,San Diego,CA,92107,32.750546,-117.24274,1,5.0,314,+16196635184,http://www.tapshackob.com,ChIJd0qPdUeq3oARJaiLJh_Dc0g,397072140088
+47,Broken Yolk Cafe,5164 College Ave,San Diego,CA,92115,32.77217,-117.07033,1,3.8,320,,http://www.brokenyolkcafe.com,ChIJEfoL1IVW2YARQ7RtpNlWu0w,3497931799567
+48,Bowlegged bbq,4255 Market St,San Diego,CA,92102,32.71122,-117.1036,2,4.6,1306,+16193017105,http://bowleggedbbq.com,ChIJx4INt5RT2YAR8BA5JrzDeN4,12317903366694
+49,Henry's Pub,618 5th Ave,San Diego,CA,92101,32.711887,-117.16018,1,4.3,1237,+16192382389,http://www.henryspub.com,ChIJycMktllT2YAR0jdF7w9wd1A,4971897708223
+50,"Bud and Rob's Downtown, A New Orleans Bistro",815 F St,San Diego,CA,92101,32.71355,-117.15705,2,4.6,1764,+16195429002,http://www.budandrobsbistro.com,ChIJcYJ9bDP-24ARXoH1rDberD4,6771533931729
+51,The Old Spaghetti Factory,275 5th Ave,San Diego,CA,92101,32.708164,-117.16,2,4.3,4699,+16192334323,http://www.osf.com/location/san-diego-ca/,ChIJ-xFSR1pT2YARLwRK7k_p0hY,22462034153813
+52,Subway,4211 Camino De La Plz Suite 158 E,San Diego,CA,92173,32.543172,-117.041005,,3.8,121,+16194288500,https://restaurants.subway.com/united-states/ca/san-diego/4211-camino-de-la-plz,ChIJzf4HtxpJ2YARZNcNaI031i8,10953842497204
+53,Laredo Taco Company,3504 El Cajon Blvd,San Diego,CA,92104,32.75572,-117.117615,,4.0,86,+16196078742,https://www.laredotacocompany.com/,ChIJa8oK3sdV2YARrMgLDRxS6gs,2269860012739
+54,Empanada Kitchen,819 C St,San Diego,CA,92101,32.71653,-117.15714,1,4.7,728,+16192289419,http://www.empanada-kitchen.com,ChIJqwi4Q6dU2YARo_XLSwUHnuQ,9471377707350
+55,Yatch Club Restaurant & Bar,333 W Harbor Dr,San Diego,CA,92101,32.70884,-117.16452,2,4.2,493,+16192308910,https://www.facebook.com/pages/Yatch-Club-Restaurant-Bar/526090537546706,ChIJaV7ALVFT2YARU_YXtb-3AXs,9629023070940
+56,Davanti Enoteca Restaurant,12955 El Camino Real,San Diego,CA,92130,32.95265,-117.2323,2,4.2,557,+18585195060,http://davantidelmar.com/,ChIJ-zC2ypwI3IAR2iUEIiU-Bq0,9673006501252
+57,Taste of the Himalayas,8895 Towne Centre Dr #115,San Diego,CA,92122,32.86704,-117.20678,2,4.1,309,+18588867990,https://tasteofthehimalayasutc.com/,ChIJd2ThVAEB3IARqWnqiMicqPE,20227878578211
+58,Mister A'S,2550 5th Ave 12th Floor,San Diego,CA,92103,32.731766,-117.16085,4,4.6,2462,+16192391377,http://www.asrestaurant.com,ChIJhT3vwblU2YARZ3c8cyGp12U,17861887299960
+59,The Tipsy Crow,770 5th Ave,San Diego,CA,92101,32.71357,-117.16032,2,4.3,2450,+16193389300,http://thetipsycrow.com,ChIJn8N5QFhT2YARW_WojgoQYms,2159877326280
+60,Pizza Hut,3549 Midway Dr,San Diego,CA,92110,32.75106,-117.21377,1,4.1,586,+16192262333,https://locations.pizzahut.com/ca/san-diego/3549-midway-dr,ChIJ9wcEfvmq3oARk47B_DY4QZg,753163379346
+61,Shake Shack Little Italy,2008 India Street,San Diego,CA,92101,32.725666,-117.169426,1,4.5,2135,+16193313958,https://shakeshack.olo.com/menu/shake-shack-little-italy/,ChIJh08yIDpV2YAR6LWDxUj78uw,2089556668032
+62,MishMash,1985 National Ave Ste 1133,San Diego,CA,92113,32.69989,-117.14487,,4.6,688,+16199558544,http://mishmashsd.com,ChIJy_6SnWtT2YARKVXmeCkBZlE,3044395774546
+63,Gaglione Brothers Famous Steak,3944 W Point Loma Blvd,San Diego,CA,92110,32.7552,-117.22204,1,4.5,423,+16197580646,http://www.gaglionebros.com,ChIJv9wAcliq3oARdOACbOYkeO0,1581847980041
+64,Starbucks,17170 Camino Del Sur,San Diego,CA,92127,33.01981,-117.12552,,3.4,23,+18582273918,https://www.starbucks.com/store-locator/store/1009787/target-san-diego-2855-17170-camino-del-sur-san-diego-ca-92127-us,ChIJ-8GASP_224AR-vg0BmmLjEQ,2577398941767
+65,Pho Minh & Grill,4468 Ingraham St b/t Garnet Ave & Hornblend St Pacific Beach,San Diego,CA,92109,32.79948,-117.24109,1,4.6,328,+18582704859,,ChIJfX_RisAB3IARLvZDY3vEH_U,3381980713232
+66,Subway,6171 Mission Gorge Road Suite 101,San Diego,CA,92120,32.78682,-117.097523,,3.5,127,+16192805619,https://restaurants.subway.com/united-states/ca/san-diego/6171-mission-gorge-road,ChIJq5gmVcFV2YARrifP98EnMMQ,2681973612992
+67,7-Eleven,1150 Broadway,San Diego,CA,92101,32.715939,-117.154214,,2.6,146,+16192368837,https://www.7-eleven.com/locations/ca/san-diego/1150-broadway-33992,ChIJ3-EEZ19T2YAR2ofIdmifxdQ,4481051070392
+68,Cute Cakes,518 6th Ave Gaslamp,San Diego,CA,92101,32.71075,-117.1595,,4.4,28,,http://cutecakes-sd.com/,ChIJJ9cAm1lT2YARlCxlkAYgWHU,646479426399
+69,Poke Chop,3884 4th Ave,San Diego,CA,92103,32.74804,-117.16193,,4.5,319,+16192305047,https://www.pokechopsd.com/find-us,ChIJrbGpedBU2YARuBxARvxB9og,2268843737918
+70,Mendocino Farms,1652 Camino Del Rio N,San Diego,CA,92108,32.769947,-117.14673,1,4.3,279,+16193982020,http://www.MendocinoFarms.com,ChIJI8KPPEBV2YARTkx2eBNZatY,5858185117824
+71,Jack in the Box,942 Dennery Rd Otay Mesa,San Diego,CA,92154,32.553837,-116.94199,1,3.9,700,+16199425444,https://www.jackinthebox.com/,ChIJe4xInb1P2YAR5hfTrFxGcZE,1544797894422
+72,Iowa Meat Farms,6041 Mission Gorge Rd,San Diego,CA,92120,32.783947,-117.097626,,4.8,594,+16192815766,http://www.bestmeatssandiego.com/locations/,ChIJyzcbe8ZV2YARdSXA8w1U_RY,5134129525909
+73,Subway,Fleet Exchange Bldg 3301,San Diego,CA,92136,32.679551,-117.120544,,2.5,26,+16195449342,https://restaurants.subway.com/united-states/ca/san-diego/fleet-exchange,ChIJh50z82FU2YARYPzyndax3hU,2417027312271
+74,The Brigantine,2725 Shelter Island Dr,San Diego,CA,92106,32.720814,-117.22856,2,4.4,1883,+16192242871,http://www.brigantine.com/locations_brigpl.html,ChIJ1T_UaaKr3oARxW7lXNKcyWk,5888354884854
+75,Wicked Popcorn,2820 Historic Decatur Rd Liberty Public Market,San Diego,CA,92106,32.739845,-117.211235,,4.5,42,+16199555065,http://www.wickedpopcornsd.com,ChIJ953XOaCr3oARgTsaH0mYGgk,237961852090
+76,Johnny WAHOO! Golf Bar,527 5th Ave,San Diego,CA,92101,32.71083,-117.159874,2,4.1,109,+16196422652,https://johnnywahoogolfbar.com/,ChIJtX-5ynRT2YARxI8sfon0uIg,6113470427337
+77,Parfait Paris,2820 Historic Decatur Rd #30,San Diego,CA,92106,32.740204,-117.21111,2,4.5,530,+16198197681,https://parfaitparis.com/,ChIJv5IhegOr3oARuLQ2qp-2cUo,1920527762036
+78,Panchita's Bakery,1879 Logan Ave Ste K,San Diego,CA,92113,32.70145,-117.14482,2,4.4,558,+16193389331,http://www.panchitasbakery.com/,ChIJU6NljWtT2YARm0uQ4K4xoz0,945327598310
+79,Sushi Tadokoro,2244 San Diego Ave Suite C,San Diego,CA,92110,32.74842,-117.19135,4,4.6,830,+16192970298,http://sushitadokoro.com,ChIJVXj2tiCr3oARyMq7XapZjqE,6476109340575
+80,Panda Express,12330 Carmel Mountain Road,San Diego,CA,92128,32.987504,-117.07596,1,3.8,420,+18586740761,https://www.pandaexpress.com/locations/ca/san-diego/12330-carmel-mountain-road,ChIJLwz8U6rw24ARqbxsockm7eA,2141037158199
+81,Rancho Viejo mex,16479 Bernardo Center Dr,San Diego,CA,92128,33.01287,-117.07752,1,4.3,637,+18585246554,https://www.facebook.com/myranchoviejo/,ChIJlYF-5szw24ARNvfsrbVufG0,899027454278
+82,Subway,Mcas Miramar Bldg 2660,San Diego,CA,92145,32.892817,-117.123675,,3.0,30,+18585470010,https://restaurants.subway.com/united-states/ca/san-diego/mcas-miramar,ChIJOZdUFCX_24AR2q5Y0_ocaIE,7833086986631
+83,R&g Salumeria Wine Bar,1445 India St Little Italy,San Diego,CA,92101,32.72024,-117.168,3,4.9,681,,http://rgwinebar.com,ChIJRQ5YZ0pV2YARDbRKgmbISao,3778231896712
+84,Soup Du Jour,8583 Aero Dr,San Diego,CA,92123,32.809437,-117.14239,2,4.8,300,+18583846328,https://www.soupsd.com/,ChIJl3fz4xj_24ARXxcrseEbfm4,1000410446781
+85,Yenchim Garden Restaurant,13297 Black Mountain Rd,San Diego,CA,92129,32.959217,-117.126274,1,4.5,133,+18584847277,https://www.facebook.com/YenchimGarden/,ChIJQ9doyxn524ARWQsMADGwvNw,1683323891865
+86,Miguel's Cocina,2912 Shelter Island Dr,San Diego,CA,92106,32.72236,-117.229996,2,4.4,2632,+16192242401,http://www.miguels-cocina.com,ChIJT3HfAqOr3oARcmf3c1IAjb8,6983657758295
+87,Snoice,7420 Clairemont Mesa Blvd Ste 108,San Diego,CA,92111,32.833447,-117.158585,,4.6,65,+18584806722,http://snoicesd.com,ChIJDU4lIwP_24AR5vW_T8HOQz4,4719534786930
+88,Subway,8299 Otay Mesa Rd Suite 101,San Diego,CA,92154,32.56728,-116.965559,,4.0,145,+16196710084,https://restaurants.subway.com/united-states/ca/san-diego/8299-otay-mesa-rd,ChIJD8ZEp0BG2YARJ5dqDvHIWXw,467192273650
+89,The Rabbit Hole,3377 Adams Ave,San Diego,CA,92116,32.763206,-117.121086,2,4.3,1414,+16192554653,http://rabbitholesd.com/,ChIJo31zfVRU2YARLahgXL_5cVI,8645556938688
+90,Ichiban,1449 University Ave,San Diego,CA,92103,32.74814,-117.15006,2,4.5,864,+16192997203,https://www.facebook.com/Ichiban-Hillcrest-113627698656136/,ChIJt_bxqcJU2YARyJW0mapNYog,5644728535545
+91,Cali Cafe,3355 Sandrock Rd,San Diego,CA,92123,32.80389,-117.13941,2,4.4,221,+18585985906,https://www.calicafesd.net/,ChIJ5ySzDdj_24ARjP5MWEIabwA,2083152539420
+92,Pesto Italian Craft Kitchen SDSU,6011 El Cajon Blvd A,San Diego,CA,92115,32.760616,-117.06807,2,4.6,909,+16192652700,https://www.pestocraft.com,ChIJt9Hw2ZlW2YARwcDz7c1baAg,21268299192
+93,Denny's,7676 Friars Rd.,San Diego,CA,92108,32.77226,-117.15799,2,4.2,2403,+16192980242,https://locations.dennys.com/CA/SAN-DIEGO/248743,ChIJDcQ4xTtV2YARMm5EbxwFuWw,6169030726712
+94,McDonald's,8929 Clairemont Mesa Blvd,San Diego,CA,92123,32.83107,-117.1358,1,3.5,1430,+18582771433,https://www.mcdonalds.com/us/en-us/location/ca/san-diego/8929-clairemont-mesa-blvd/5458.html,ChIJkS60vq3_24ARrkAorqsccio,1195154937873
+95,Salt & Straw,1670 India St,San Diego,CA,92101,32.722786,-117.168365,,4.7,2698,+16195429394,http://saltandstraw.com,ChIJR9Qe8K1U2YARdNFRcr-Gi88,5770576138800
+96,Firefly Eatery & Bar at the Dana Mission Bay,1710 W Mission Bay Dr,San Diego,CA,92109,32.76681,-117.23761,2,4.2,474,+16192226440,http://www.thedana.com/dining,ChIJnSqezG6q3oARG0fOtxzNSbs,4775587441534
+97,Kolbeh Restaurant,9514 Miramar Rd,San Diego,CA,92126,32.89453,-117.12296,2,4.7,522,+18585786040,https://kolbehsandiego.com/,ChIJnTf4n0P524ARpE3WZ2FwFkk,4871932304010
+98,Chili's,10184 Scripps Highlands Dr Scripps Poway Parkway,San Diego,CA,92131,32.93292,-117.10661,2,4.3,1648,+18585662096,http://www.chilis.com/locations/us/california/san-diego/scripps-gateway,ChIJrWF2Nqf524ARl51bFQDwuS4,1146712174663
+99,Knotty Brewing Co.,842 Market St,San Diego,CA,92101,32.71163,-117.15688,,4.5,98,+16192694337,http://knottybrewing.com,ChIJKWJuR1lT2YARILKeuj2SgGE,4984892981289
+100,Vallarta Taco Stand,4125 El Cajon Blvd,San Diego,CA,92105,32.75493,-117.10642,2,4.1,235,+16192831781,http://ordervallartatacoshopmexicangrill.com/,ChIJPep_50ZU2YARuHTJoMx7dX4,5712365013705
+101,Subway,8872 Navajo Rd. Suite 201-21,San Diego,CA,92119,32.804098,-117.006975,,3.3,178,+16194603640,https://restaurants.subway.com/united-states/ca/san-diego/8872-navajo-rd,ChIJzzfIiZdX2YARSXAnHP5fzaY,6010873671825
+102,McDonald's,3505 Del Mar Heights Rd,San Diego,CA,92130,32.954453,-117.23145,1,4.0,870,+18587558588,https://www.mcdonalds.com/us/en-us/location/ca/san-diego/3505-del-mar-heights-road/10996.html,ChIJNWqVr4QI3IARmgqE6uY4mqo,3063476606505
+103,La Clochette Du Coin,4680 Cass St,San Diego,CA,92109,32.799904,-117.252785,2,4.6,338,+18584125558,https://laclochetteducoin.com/,ChIJqSGlHN8B3IARh6blxt3kGns,1211965469427
+104,Izakaya Sakura,3904 Convoy St Ste 121,San Diego,CA,92111,32.81489,-117.1548,2,4.3,733,+18585696151,http://izakayasakura.menutoeat.com,ChIJI2OLWun_24ARXQMLRWwZk7E,3362381904920
+105,Krispy Krunchy Chicken,1219 Market St Suite B,San Diego,CA,92101,32.71105,-117.15322,1,3.7,138,+16195466377,http://www.krispykrunchy.com/,ChIJbaiYgl5T2YARmR29cyxi8gk,2997066181572
+106,La Barca Authentic Mexican Seafood,3048 Midway Dr,San Diego,CA,92110,32.750435,-117.206924,2,4.2,100,+16199492166,https://labarcasd.com/,ChIJmVpVaWyr3oARBBDGN6PF1II,1488346471800
+107,Little Chef Chinese Take-Out,4910 Newport Ave,San Diego,CA,92107,32.7462,-117.24929,1,3.6,336,+16192226627,https://www.facebook.com/LittleChefTakeout/,ChIJ38jSVjeq3oARAcfSz_27IO0,6669905857912
+108,Bunny Chow Express - South African Food,7128 Miramar Rd Suite1,San Diego,CA,92121,32.880596,-117.16062,2,4.6,42,+18552762533,https://www.bunnychow.co,ChIJy4VdaK__24AR_GvVbqqNqgg,2450891755936
+109,Rigoberto's Taco Shop,1190 Garnet Ave,San Diego,CA,92109,32.79839,-117.24854,1,4.1,311,+18582701134,http://www.rigobertostacoshop.net/1190-garnet-ave-location,ChIJnxoCSOsB3IARN6YpliIDAv0,9790627253136
+110,Denny's,130 E Calle Primero,San Diego,CA,92173,32.54991,-117.04356,2,4.3,3405,+16196900408,https://locations.dennys.com/CA/SAN-YSIDRO/248745,ChIJ3z2ofRdJ2YARDlohCc5MWsY,5286646581744
+111,Carmelita's Kitchen De Mexico,101 Park Plaza 135,San Diego,CA,92101,32.71562,-117.1558,2,4.0,96,+16193105142,http://carmelitasgroup.com,ChIJGVVDd45T2YARscCqpM2RI1M,1425400325388
+112,Wetzel's Pretzels,1640 Camino Del Rio North,San Diego,CA,22434,32.769337,-117.14789,1,3.3,47,+16192970275,,ChIJs2n-qRlV2YARUz4XC7Qar00,7658790601176
+113,Domino's Pizza,13857 Carmel Valley Rd Ste A,San Diego,CA,92130,32.969982,-117.160995,1,3.5,62,+18583245200,https://www.dominos.com/en/,ChIJTwGkkKP324AR8I6uWg7qUwQ,5787692139824
+114,Domino's Pizza,126 W Washington St Ste A,San Diego,CA,92103,32.75012,-117.1633,,3.7,253,+16198818800,https://www.dominos.com/en/,ChIJ_RYS19BU2YARCWFrw1_XWl8,12121637954880
+115,Auntie Anne's,Food Court Bldg. 2017,San Diego,CA,92135,32.701873,-117.184139,,3.8,9,+16196233820,https://locations.auntieannes.com/ca/san-diego/food-court,ChIJcwOzhbWt3oARmEfOHwDwgkc,7753401090062
+116,Robertacos,492 W San Ysidro Blvd,San Diego,CA,92173,32.55596,-117.05495,2,3.7,602,+16196906814,,ChIJe5v-Nj9J2YARSn1g21LS7xc,6779341937630
+117,Maya's Gourmet Pizza,660 E San Ysidro Blvd Ste C,San Diego,CA,92173,32.54645,-117.03272,1,4.3,90,+16198165999,,ChIJm-DB_jNJ2YARisCRPtkEBfk,12128280722404
+118,Red Lobster,3780 Sports Arena Blvd,San Diego,CA,92110,32.75489,-117.21665,,4.2,1915,+16192261057,https://www.redlobster.com/locations/list/ca/san-diego/3780-sports-arena-blvd,ChIJcz_db_eq3oARTafqyZ0jjK0,8207526592056
+119,Shanghai Bun,1029 Rosecrans St,San Diego,CA,92106,32.72054,-117.23225,2,4.2,435,+16197951700,http://www.shanghaibunsd.com,ChIJE6ikzKKr3oARDDiwFWtsXIc,7854096908555
+120,Hua Mei Cafe,2920 Zoo Dr San Diego Zoo,San Diego,CA,92101,32.73528,-117.14911,2,3.2,86,,https://zoo.sandiegozoo.org/dining,ChIJqbh7ur9U2YARApW4pNxSq1w,12272644013195
+121,Hazelwoods On the Bay,1355 N Harbor Dr,San Diego,CA,92101,32.7184,-117.17281,2,4.4,729,+16192319866,https://hazelwoodsonthebay.net/,ChIJk1-j0KxU2YARWwZL07MPl-I,63200605555
+122,Guahan Grill,3373 Rosecrans St,San Diego,CA,92110,32.75132,-117.2056,2,4.3,201,+16196935766,http://www.guahangrill.com/,ChIJrcTTSRur3oAR39vlfb4MjjA,13143912950400
+123,The Radical Beet,6334 El Cajon Blvd,San Diego,CA,92115,32.71562,-117.1558,2,4.6,193,+16192098291,https://www.instagram.com/theradicalbeet/,ChIJeZ68rXFX2YARXewtR-2lRzU,2310871106193
+124,Emerald Chinese Cuisine,3709 Convoy St #101,San Diego,CA,92111,32.81125,-117.15259,2,3.6,273,+18585656888,http://www.sdchinesecuisine.com/,ChIJnzMCBlP_24AR8DDRfW6bJKo,9229372350264
+125,Veranda Fireside Lounge & Restaurant,17550 Bernardo Oaks Drive Rancho Bernardo Inn,San Diego,CA,92128,33.031094,-117.06721,,4.3,522,+18889931856,https://www.ranchobernardoinn.com/dine/veranda-fireside-lounge,ChIJfTZyLCbx24ARqTjuBd15c8I,8292508482460
+126,Invigatorium,631 9th Ave,San Diego,CA,92101,32.71562,-117.1558,2,4.7,523,,http://theinvigatorium.com,ChIJW_57LUlT2YARRRwiZU7ZX7A,11551312757380
+127,Starbucks,"12469 Rancho Bernardo Road, Rancho Bernardo Village",San Diego,CA,92128,33.01812,-117.06203,2,4.3,185,+18584871746,https://www.starbucks.com/store-locator/store/12472/rancho-bernardo-pomerado-12469-rancho-bernardo-road-san-diego-ca-921282143-,ChIJeceinsTw24ARww_CeUPHOBU,3312044301126
+128,RustiCucina,3797 Park Blvd,San Diego,CA,92103,32.74745,-117.14588,2,4.6,810,+16193105291,http://rusticucina.com,ChIJ__9L5OhU2YARdghSeG0jiTU,3202417669290
+129,Ghirardelli Ice Cream & Chocolate Shop,643 5th Ave,San Diego,CA,92101,32.712257,-117.16001,,4.6,3280,+16192342449,http://www.ghirardelli.com/stores/,ChIJewDAs1lT2YARV-g1lnsygP0,11189003298477
+130,Everbowl,9844 Hibert St # G5,San Diego,CA,92131,32.914455,-117.11406,2,4.1,98,+18588605133,https://www.facebook.com/Everbowl-573991662935089/,ChIJSeY48Bf524ARLzcbBt5KQbM,752447451626
+131,San Diego Poke Company,10387 Friars Rd,San Diego,CA,92120,32.78996,-117.10062,1,4.1,243,+16195844786,http://Sdpokeco.com,ChIJmY19qRZV2YARi171DrwvcWQ,1645849942990
+132,Evan's Deli And Brew,3944 W Point Loma Blvd Suite D-e,San Diego,CA,92110,32.71562,-117.1558,1,4.8,292,+16197580646,https://www.evansdeliandbrew.com/,ChIJT_zPX56r3oARdZvJ9551Xwo,13673257854050
+133,Royal India,3860 Valley Centre Dr,San Diego,CA,92130,32.939137,-117.23216,2,4.2,450,+18587921111,http://www.royalindiadelmar.com,ChIJMweB9y8G3IARxoEIuPk2qv4,550042502128
+134,Starbucks,10675 Scripps Poway Pkwy,San Diego,CA,92131,32.9357,-117.09827,1,4.3,220,+18586930638,https://www.starbucks.com/store-locator/store/14735/vons-san-diego-2107-10675-scripps-poway-pkwy-san-diego-ca-921313919-us,ChIJv9GWsnX524ARj5v2ITCPnU4,7914293010855
+135,Supernatural sandwiches,7094 Miramar Rd Ste 105,San Diego,CA,92121,32.87994,-117.16208,2,4.6,1032,+18588317835,http://www.snssd.com,ChIJm3PPnyVU2YAReIZWIwF2tOU,883315152512
+136,El Mango Manila,2036 Dairy Mart Rd Ste 124,San Diego,CA,92173,32.56102,-117.06355,,4.1,89,+16194284330,,ChIJMR3fR09J2YARTJUILeF6_Tw,574975222954
+137,Broken Yolk Cafe,11630 Carmel Mountain Rd,San Diego,CA,92128,32.979416,-117.08145,2,4.2,1246,+18586759655,http://www.thebrokenyolkcafe.com/location/broken-yolk-cafe-carmel-mountain/,ChIJFTttO__524ARso2lgwe4l9g,14434650170176
+138,Pizza Port Ocean Beach,1956 Bacon St,San Diego,CA,92107,32.747967,-117.25029,1,4.6,4004,+16192244700,http://www.pizzaport.com/,ChIJ49IcJjqq3oARUvM7xWSU6AM,14134012505459
+139,Country Waffles,2323 Midway Dr,San Diego,CA,92110,32.74524,-117.19924,,,0,+16192232225,http://countrywaffles.com/,ChIJVYTHqB-r3oARhgZNG9TbfY0,209686404190
+140,Pho Ca Dao,8373 Mira Mesa Blvd,San Diego,CA,92126,32.912514,-117.143456,1,4.1,1371,+18585640917,http://phocadaogrill.com/,ChIJtZZmse7424ARemW_i3lTR-I,14836041258400
+141,Boudin SF,5407 Balboa Ave Suite 400,San Diego,CA,92111,32.819164,-117.181366,2,4.2,669,+18587376751,http://www.boudinbakery.com,ChIJcQ1_3XMA3IARPWZFl-OGxlU,775422221960
+142,Himalayan Palace Restaurant,3760 Sports Arena Blvd #5 #5,San Diego,CA,92110,32.75549,-117.21632,2,4.3,447,+16195104966,https://www.himalayanpalacesd.com/,ChIJnRKp4bSr3oARjaiwtBl3xX0,7675066407708
+143,Pho Hoang Express,16425 Bernardo Center Dr,San Diego,CA,92128,33.01193,-117.07822,1,4.4,516,+18586137777,http://phohoangexpress.com/,ChIJla0UPTP324ARAeiGyWIJcQQ,7797106176670
+144,Al Dente,4207 Park Blvd,San Diego,CA,92103,32.71562,-117.1558,2,4.4,139,,,ChIJPWvFjptV2YARQwkY8UhwSRQ,6053035486800
+145,The Whiskey House,420 3rd Ave,San Diego,CA,92101,32.709686,-117.162056,2,4.5,1523,+16262529782,http://www.thewhiskeyhousesd.com/,ChIJGdo8UVdT2YARU-W1hlFIS-0,5127276068594
+146,Jersey Mike's Subs,8726 Lake Murray Blvd.,San Diego,CA,92119,32.802548,-117.012985,1,4.4,123,+16193036119,https://www.jerseymikes.com/20281/san-diego-ca,ChIJrf6t0gBX2YAR50snlX8e69A,8763816185866
+147,Starbucks,11885 Carmel Mountain,San Diego,CA,92128,32.98143,-117.07525,2,4.2,282,+18586750412,https://www.starbucks.com/store-locator/store/8740/carmel-mountain-11885-carmel-mountain-ste-909-san-diego-ca-9212846,ChIJja40awH624ARcYSF31Es3oI,13074314260314
+148,The Shop: Pizza + Cocktails,11967 Bernardo Plaza Dr,San Diego,CA,92128,33.02005,-117.07436,,4.4,411,+18585246565,http://www.theshop858.com/,ChIJh6aLBm3x24ARIBitsMmMuN8,7598188762508
+149,7-Eleven,2190 Bacon St,San Diego,CA,92107,32.752046,-117.247,,3.4,80,+16192260711,https://www.7-eleven.com/locations/ca/san-diego/2190-bacon-st-24133,ChIJn5yt1Tiq3oARjJZcucbO7hk,12972242561632
+150,FAMOUS WAFFLE SANDWICH,4853 Convoy St,San Diego,CA,92111,32.830437,-117.15148,1,4.8,117,+18585985244,https://famouswafflesandwich.com/,ChIJz-FFdljx24ARoymodFANRFs,831889202066
+151,Starbucks,6555 Mission Gorge Rd,San Diego,CA,92120,32.79232,-117.09646,1,3.9,128,+16192841355,https://www.starbucks.com/store-locator/store/18344/vons-san-diego-2359-6555-mission-gorge-rd-san-diego-ca-921202306-us,ChIJWSJOBsJV2YAR4n42nD2GsWE,1123493615514
+152,Enoteca Adriano,4864 Cass St,San Diego,CA,92109,32.80335,-117.25379,2,4.7,835,+18584900085,http://www.enotecaadriano.com/menu,ChIJ7QlKjpEB3IARtH5Cfq6S3aU,1185333202986
+153,LongHorn Steakhose,6519 Mission Gorge Rd,San Diego,CA,92120,32.79164,-117.0966,2,4.5,710,+16192830831,https://www.longhornbarandgrillsandiego.com,ChIJn-nI8sFV2YARNl6VhbeC-ow,13340177331719
+154,Bolsa Vietnamese Restaurant,9225 Mira Mesa Blvd Ste 118,San Diego,CA,92126,32.916588,-117.12623,1,4.5,232,+18586933663,https://www.bolsasandiego.com,ChIJfflO8B3524ARzl8YIp_Jgyw,11312667217940
+155,Jersey Mike's Subs,756 Dennery Road,San Diego,CA,92154,32.579564,-117.034966,1,3.6,153,+16192713334,https://www.jerseymikes.com/20275/san-diego-ca,ChIJPz1KXMBP2YARAj-uIY793Sw,7889008965570
+156,El Toro Del Cerro,6358 Del Cerro Blvd,San Diego,CA,92120,32.784073,-117.060356,1,4.0,329,+16192878541,http://www.eltorodelcerro.com/,ChIJRb5mQGFW2YARn3nZZ6ysRos,11249522696148
+157,Thang Thang,7905 Engineer Rd,San Diego,CA,92111,32.8259,-117.15274,2,4.2,228,+18585691582,,ChIJK58Y05X_24AR45C19reFVHQ,12382702366640
+158,Desi N Friends,2734 Lytton St,San Diego,CA,92110,32.74298,-117.20995,2,4.5,220,+16192246409,,ChIJES4n3AKr3oAR3g1T3eBAF-I,9385780153288
+159,McDonald's,7140 Miramar Rd,San Diego,CA,92121,32.88043,-117.1596,1,3.8,903,+18582719151,https://www.mcdonalds.com/us/en-us/location/ca/san-diego/7140-miramar-rd/6348.html,ChIJgywyDE3_24ARcvIm53cQNrw,12496280877924
+160,Starbucks,11152 Rancho Carmel Dr.,San Diego,CA,92128,32.97916,-117.08372,1,4.2,507,+17605221656,https://www.starbucks.com/store-locator/store/1015892/carmel-mountain-i-15-11152-rancho-carmel-dr-san-diego-ca-921284660-us,ChIJ2fuiwP7524AR0_MTjxL8lJg,15195806705288
+161,Charles + Dinorah at The Pearl,1410 Rosecrans St,San Diego,CA,92106,32.725357,-117.22897,,4.6,47,+16192266100,http://thepearlsd.com/dining,ChIJwao0zwar3oAR9tjCXboEqII,3208623542553
+162,Everbowl - Mission Valley,5624 Mission Center Rd Unit C,San Diego,CA,92108,32.773567,-117.15722,1,4.7,617,+16192436139,http://www.everbowlsandiego.com,ChIJOeExBcBV2YARoR-PuBW6viI,10276204920201
+163,Cafe 976,976 Felspar St,San Diego,CA,92109,32.79847,-117.25244,2,4.3,495,+18582720976,http://www.cafe976.com/,ChIJW8v7u3IB3IAR3_Z_GZwhxO0,11147832059364
+164,SusieCakes,3705 Caminito Ct,San Diego,CA,92130,32.95224,-117.23536,1,4.3,151,,,ChIJiY5tbo0J3IAR9Aeh2NyGwl0,9129031010904
+165,Metl Bar & Restaurant,748 5th Ave,San Diego,CA,92101,32.71305,-117.16045,2,4.4,140,+16195466424,http://metlsd.com,ChIJq-3KEJhT2YARjJyQM6PPIj4,3594323478300
+166,Phantom Lounge and Nightclub,1014 5th Ave,San Diego,CA,92101,32.71593,-117.16045,,3.2,76,+16199221944,https://www.facebook.com/PLNightclub/,ChIJJ4EU66dU2YARI5TSvRZrGUQ,769886762397
+167,Cannonball,3105 Ocean Front Walk FRNT Walk,San Diego,CA,92109,32.770027,-117.25272,2,4.3,2171,+18582289304,http://www.cannonballsd.com,ChIJ2xvq4w6q3oARsArmidIU0tc,3060908328519
+168,Bread & CIE,350 University Ave,San Diego,CA,92103,32.748363,-117.16192,2,4.6,1461,+16196839322,http://www.breadandcie.com/,ChIJ7TBjgNBU2YAR9D8lvmExvpw,13582985255060
+169,Better Buzz Coffee Roasters,801 University Ave,San Diego,CA,92103,32.74816,-117.15701,1,4.5,2146,+16192692740,http://betterbuzzcoffee.com,ChIJiZB7QdtU2YARBz7sv-2hm7w,105449017221
+170,The Kebab Shop,630 9th Ave,San Diego,CA,92101,32.71191,-117.15675,,4.5,1546,,http://www.thekebabshop.com/,ChIJKV4ISFlT2YARHM0f53wQeLw,15989043716346
+171,Grandma Tofu and Korean BBQ,4425 Convoy St Ste 217,San Diego,CA,92111,32.82075,-117.15465,2,4.0,760,+18582772220,http://www.grandmatofu.com/,ChIJ__sATev_24ARhvgTFkhcawk,15016040557392
+172,Cafe 20/20 Restaurant,4105 Mission Blvd Cross Street: Pacific Beach Drive,San Diego,CA,92109,32.791008,-117.253876,1,2.7,394,+18588867792,http://cafe2020pb.com/,ChIJP-IfZu4B3IARV4B8oVNAe7g,2039696612205
+173,Little Caesars,4370 Palm Ave.,San Diego,CA,92154,32.583711,-117.03901,1,4.1,426,+16196624692,https://littlecaesars.com/en-us/store/7438/,ChIJ6eNmxtBO2YARcovsZCdOnQo,4163022845457
+174,Panda Express,7007 Friars Rd,San Diego,CA,92108,32.767374,-117.166078,1,3.4,259,+16195420915,https://www.pandaexpress.com/locations/ca/san-diego/7007-friars-rd,ChIJ-Vi3YjFV2YARahJKv5zi7Ks,5777533509012
+175,Farmer's Table,3057 Clairemont Dr Clairemont Village,San Diego,CA,92117,32.79497,-117.19224,2,4.3,664,+16193594485,http://myfarmerstable.com,ChIJja2vUrUB3IARF4kcDFu-5WQ,5039697111603
+176,O'Brien's,4646 Convoy St Ste 117,San Diego,CA,92111,32.82491,-117.15566,2,4.6,907,+18587151745,http://obrienspub.net,ChIJubb3CJT_24ARgT4M9ifLXDg,17424039522848
+177,PB Sushi,1203 Garnet Ave,San Diego,CA,92109,32.798077,-117.24797,2,4.1,668,+18582749755,http://pbsushi.net/index.html,ChIJfwGsO-sB3IARgC4QersmNIA,18448377674970
+178,Panera Bread,750 Dennery Rd,San Diego,CA,92154,32.57983,-117.034676,2,3.8,271,+16194834480,https://locations.panerabread.com/ca/san-diego/750-dennery-rd.html,ChIJCYLNZMhP2YARuDd35t3bSqk,5672263306956
+179,Old Town Saloon,2495 San Diego Avenue,San Diego,CA,92110,32.75252,-117.19489,2,4.1,441,+16192982209,https://oldtownsaloonsd.wixsite.com/bars,ChIJcZbEZ96q3oAREROMN9-r79g,3454663988931
+180,Vin de Syrah,901 5th Ave,San Diego,CA,92101,32.714783,-117.15995,,4.5,829,+16192344166,http://www.syrahwineparlor.com,ChIJbThKdFhT2YARjTsZNkFL0m4,17601110676488
+181,Sogno Di Vino,1607 India St,San Diego,CA,92101,32.722218,-117.16829,2,4.4,239,+16195318887,http://www.sognodivinosd.com,ChIJC89z561U2YARRUKO4EUevyU,42830708140
+182,Long Island Mike's,5250 Murphy Canyon Rd,San Diego,CA,92123,32.83189,-117.12106,1,4.5,838,+18585697499,http://longislandmikespizza.com,ChIJsxet4Ev-24ARfHZWbS7Mmv8,8725897777890
+183,Fres. Co,675 L St,San Diego,CA,92101,32.707184,-117.15854,2,4.2,49,+16192316664,http://www.omnihotels.com/hotels/san-diego/dining/fresco,ChIJg4xXAVtT2YARBk82KgQchvc,10954667920864
+184,Pizza Hut,6911 Linda Vista Rd,San Diego,CA,92111,32.78379,-117.17096,1,3.5,344,+18585710110,https://locations.pizzahut.com/ca/san-diego/6911-linda-vista-rd,ChIJg_2tz8Gq3oARqjvsUXkFUJI,16157164302792
+185,Coaster Saloon,744 Ventura Pl,San Diego,CA,92109,32.77213,-117.251755,2,4.6,1627,+18584884438,http://www.cohnrestaurants.com/coastersaloon,ChIJm8HlMwmq3oARkCJpUkdmg_c,2330432141310
+186,Top of the Market - San Diego,750 N Harbor Dr,San Diego,CA,92101,32.712353,-117.17567,3,4.5,894,+16192323474,http://www.sdtopofthemarket.com,ChIJ3cmLblWr3oARZFeTFqSmUbs,6852925262977
+187,Obi's Sushi,3755 Murphy Canyon Rd Ste E,San Diego,CA,92123,32.81082,-117.11601,2,4.4,297,+18582688989,http://www.obissushi.com/,ChIJF0ZiaCj-24ARDlcIdjz2-kA,739226301650
+188,California Pizza Kitchen at Fashion Valley,7007 Friars Rd,San Diego,CA,92108,32.767696,-117.165855,2,4.3,1280,+16192984078,http://www.cpk.com/locations/fashion-valley/,ChIJ5WuLSBGr3oAR1MV6bDmMwXQ,2502823725160
+189,Dia Del Cafe,2873 Adams Ave,San Diego,CA,92116,32.76274,-117.13196,1,4.7,223,+16195387067,http://Diadelcafe.com,ChIJO6pwAl9V2YAR-rJZyCbuvQs,15632280176940
+190,The Coffee Bean & Tea Leaf,925 Camino de La Reina Ste C,San Diego,CA,92108,32.76745,-117.15542,1,4.4,786,+16192995072,https://www.coffeebean.com/,ChIJz67PWiNV2YAR4H9yfam0xgE,5480718119200
+191,Organic-veggi Restaurant - Hoa Tu Bi Tam,4591 El Cajon Blvd,San Diego,CA,92115,32.75526,-117.09563,2,4.9,1288,+16192550134,,ChIJIUFoFRtV2YARyaEbViPTPPc,1673848394352
+192,Yakitori Hino,7420 Clairemont Mesa Blvd #104,San Diego,CA,92111,32.8333,-117.15845,2,4.2,199,+18588806048,https://www.facebook.com/Yakitori-Hino-132537337348616/,ChIJk43kpZv_24AR-HiUDbdap6A,20209520414310
+193,Kairoa Brewing Company,4601 Park Blvd,San Diego,CA,92116,32.76121,-117.14607,2,4.5,477,+16192951355,http://www.kairoa.com,ChIJPXkfH7xV2YARKNqeREhMhd8,10915486305957
+194,Panda Express,5807 University Avenue,San Diego,CA,92115,32.749132,-117.071935,1,3.9,522,+16192860879,https://www.pandaexpress.com/locations/ca/san-diego/5807-university-avenue,ChIJ75NwN6RW2YARSlMm2vVyNHk,8319525064984
+195,Starbucks,101 G St,San Diego,CA,92101,32.71253,-117.16335,1,3.5,65,+16195951581,https://www.starbucks.com/store-locator/store/1013901/ralphs-san-diego-123-101-g-st-san-diego-ca-92101-us,ChIJaYX1oldT2YAROunMA4D36Qg,5217015348468
+196,D'Soto's Mexican Seafood and Restaurant,9272 Miramar Rd 19,San Diego,CA,92126,32.89467,-117.12804,1,4.2,92,+18585787642,http://dsotosmiramar.com/index.php,ChIJzZYf4T3524ARzYLxMHP-vT8,17961480829446
+197,Pali Wine Co. Little Italy Tasting Room,2130 India St,San Diego,CA,92101,32.72673,-117.16988,,4.4,217,+16195691300,https://www.facebook.com/PaliWineCoSD/,ChIJix9Yu7NU2YARTniNqO8thWs,2897596540965
+198,Tacos El Trompo,1879 Logan Ave Suite C,San Diego,CA,92113,32.701416,-117.144905,1,4.1,603,+16198440200,https://www.facebook.com/tacoseltrompoamexicantradition/,ChIJeTc2USdT2YARAKbycj2tNWM,4776276496842
+199,RK Sushi,334 W Washington St,San Diego,CA,92103,32.750015,-117.16716,2,4.4,726,+16195746630,http://rksushisd.com,ChIJ8-T_rNZU2YARaahC9UICCJs,7338872170488
+200,Wonderful Sushi Hillcrest,1288 University Ave,San Diego,CA,92103,32.7491,-117.15193,2,4.5,1654,+16192910240,https://www.facebook.com/wonderfulsushihillcrest/,ChIJ-xr6Nd1U2YARYFLbXZtYj64,13746444290748
+201,Boardwalk,3704 Mission Blvd Ste A,San Diego,CA,92109,32.78266,-117.25274,,4.8,549,+18584889484,,ChIJXfudIXUB3IARpOpVNVA8wA4,11232121851405
+202,CUCINA sorella,4055 Adams Ave,San Diego,CA,92116,32.763,-117.1081,2,4.5,266,+16192814014,http://www.cucinasorella.com,ChIJAwAQUElU2YARiR7h1SCEekw,19609871707752
+203,Wienerschnitzel,4530 El Cajon Blvd,San Diego,CA,92115,32.75573,-117.09672,1,3.9,751,+16192819618,http://www.wienerschnitzel.com,ChIJHxHXADxU2YARMHcZNm74Qhk,10236238466468
+204,Lestat's Coffee House,3343 Adams Ave,San Diego,CA,92116,32.76315,-117.12193,2,4.4,544,+16192820437,http://lestats.coffee,ChIJA2pYi1RU2YARZLnAcLIdOwU,8123746592324
+205,Huapango's,3693 5th Ave,San Diego,CA,92103,32.744892,-117.16026,2,4.1,594,+16195465934,http://www.huapangoscuisine.com/,ChIJ27DiP8VU2YARj6Lz8sNX1bk,12043059799672
+206,Taka,555 5th Ave,San Diego,CA,92101,32.711174,-117.15979,,4.5,762,+16193380555,https://www.facebook.com/Taka-Restaurant-113490335351850/,ChIJHaRrvllT2YARHneyghraxG8,10893887406710
+207,Burritos Santana,10443 San Diego Mission Rd,San Diego,CA,92108,32.784603,-117.11154,1,4.1,350,+16192800500,http://burritossantana.com/,ChIJJXvHZLxV2YARcaMHiEfRxjw,5572855307068
+208,smash & dash,6334 El Cajon Blvd Aztec Food Hub,San Diego,CA,92115,32.764324,-117.062355,1,4.5,62,+18582096026,https://www.smashsdca.com/,ChIJ0x9O1PBX2YARg6La-rsfCqE,5154237430227
+209,A-Chau,4644 El Cajon Blvd Ste 111,San Diego,CA,92115,32.756847,-117.09531,1,4.6,503,+16192814066,,ChIJG-J9ezxU2YARO9jUdobzycY,5766907364712
+210,McDonald's,9871 Aero Dr,San Diego,CA,92123,32.809475,-117.11607,1,3.7,1115,+18582785506,https://www.mcdonalds.com/us/en-us/location/ca/san-diego/9871-aero-dr/13408.html,ChIJZ0sPGSj-24ARUVlaMcpL-pI,1252644786888
+211,Domino's Pizza,5305 Miramar Way McAs Air Sta,San Diego,CA,92145,32.887146,-117.1358,1,2.8,207,+18585308750,https://www.dominos.com/en/,ChIJa5pWZdr-24ARqbFqfcR6eM4,12745770771100
+212,Sushiman,6348 College Grove Way,San Diego,CA,92115,32.73797,-117.05607,2,4.3,216,+16192652424,http://www.sushiman.net/,ChIJGf7KoUpR2YARIdMCE8ANF7w,8821639536300
+213,Cow By Bear,India St,San Diego,CA,92101,32.72845,-117.17061,,5.0,3,,http://cowbybear.com/,ChIJZ0KnCwBV2YARy8XlDLX08KE,13128720402116
+214,Yogurtland,5650 Balboa Ave Genesee Plaza,San Diego,CA,92111,32.82193,-117.17909,,3.6,247,+18582921966,https://www.yogurt-land.com/locations/view/1178/genesee-plaza,ChIJyT0yqXYA3IAR9HIPndvqprM,13471338680800
+215,Elixir Espresso Bar,427 C St Ste 101,San Diego,CA,92101,32.71652,-117.16045,1,4.3,122,+16196966242,http://elixirespressobar.com/,ChIJG-1kxqdU2YAR4W4Lvwh1P48,17389062582136
+216,Which Wich,8935 Towne Centre Dr Ste 103,San Diego,CA,92122,32.86747,-117.20612,1,4.3,278,+18588249424,https://www.whichwich.com/locations/,ChIJDfjBsM0A3IAR7Uzwn78mBKM,18560866630943
+217,Starbucks,17135 Camino Del Sur,San Diego,CA,92127,33.02073,-117.12535,1,4.3,298,+14422570738,https://www.starbucks.com/store-locator/store/1015533/camino-del-sur-paseo-del-sur-17135-camino-del-sur-105-san-diego-ca-921272542-us,ChIJDZ_kNv_224ARyCf3KL2zwW4,9163467139092
+218,Karl Strauss Brewery & Restaurant,1157 Columbia St,San Diego,CA,92101,32.71751,-117.16717,,4.5,2151,+16192342739,http://www.karlstrauss.com/breweryrestaurants/downtown.html,ChIJf46fXqlU2YAREZUMtItQ2QA,1250506394250
+219,La Fuente Mexican Food,1227 University Ave,San Diego,CA,92103,32.74802,-117.15271,1,3.7,566,+16192956447,https://www.instagram.com/lafuentehillcrest/,ChIJceyVK91U2YARLQ_k2--MAZY,7616191818140
+220,Crust Pizzeria,4653 Carmel Mountain Rd,San Diego,CA,92130,32.9206,-117.2135,,4.4,447,+18583503400,http://www.crustpizzeria.com,ChIJTzUqPK4H3IARSF30qWqITYE,14061698176433
+221,Taika Sushi Bar & Grill,4953 Newport Ave Ocean Beach,San Diego,CA,92107,32.7473,-117.25231,2,4.4,173,+16192211288,http://www.taikasushi.com/,ChIJqflM06Kr3oARcDx7rF9aF74,3707332943480
+222,Amplified Ale Works,1429 Island Ave,San Diego,CA,92101,32.710358,-117.15176,2,4.7,2336,+16194589443,http://www.amplifiedales.com/east-village/,ChIJ61MRFO9T2YARkV2uebOs3js,15974097166620
+223,Seoul DBG,7655 Clairemont Mesa Blvd #406,San Diego,CA,92111,32.83174,-117.15487,2,4.6,205,+18582778901,,ChIJq9n7P13_24ARNiK1Tl1KKco,22048515339309
+224,Hummus Mediterranean Kitchen,4884 Newport Ave,San Diego,CA,92107,32.745674,-117.248856,2,4.7,715,+16196420298,http://www.hummusmediterraneansd.com/,ChIJkU_bRDeq3oARuPqBuhAdv8U,15210526951360
+225,The Desmond,1047 5th Ave,San Diego,CA,92101,32.716213,-117.15988,3,4.5,72,+16195153000,http://www.thedesmondsandiego.com,ChIJez241_tV2YARl4OtMNwkQGY,1430072412285
+226,RB Sushi,5943 El Cajon Blvd,San Diego,CA,92115,32.760105,-117.06937,,4.3,808,+16192659400,http://www.rbsushi.com,ChIJx2jytplW2YARCd3m0RcIcT0,14621601305797
+227,Padadak Korean Chicken,9363 Clairemont Mesa Blvd R,San Diego,CA,92123,32.71562,-117.1558,2,4.3,193,+18585716000,http://www.padadak.com,ChIJGzJMu63_24ARUAjjJZwEoOs,23891334425568
+228,Which Wich - Carmel Mountain,11740 Carmel Mountain Rd Carmel Mountain Plaza,San Diego,CA,92128,32.98047,-117.0787,1,4.0,248,+18586740789,https://order.whichwich.com/menu/which-wich-carmel-mountain,ChIJ-WLS4gH624AR5KSvMCvqUq8,3088357009770
+229,Amplified Ale Works,4150 Mission Blvd #208,San Diego,CA,92109,32.79101,-117.25431,2,4.4,627,+18582705222,http://www.amplifiedales.com,ChIJL4jYEu4B3IAR3ihktDiB3yE,6427652795427
+230,Coal Bros,4350 El Cajon Blvd,San Diego,CA,92105,32.75533,-117.10063,,4.3,3,+16192473219,http://www.toasttab.com/coalbrossandiego,ChIJa8lpGUVU2YARMgJbD5uHwkw,2355746044176
+231,Burger Lounge,4116 Adams Ave,San Diego,CA,92116,32.76349,-117.10674,1,4.4,1048,+16195842929,http://www.burgerlounge.com/,ChIJLTlHZElU2YAR9lnNrU3mihw,23407196799975
+232,The Glass Door Restaurant,1835 Columbia St 1835 Columbia Street,San Diego,CA,92101,32.724503,-117.167534,1,4.1,342,+16195643755,http://www.glassdoorsd.com,ChIJBQQE-rFU2YARUH42D4gmW2Q,12584238424317
+233,Jamba,4725 Clairemont Dr. Ste. B,San Diego,CA,92117,32.830303,-117.20504,1,4.2,236,+18582722327,https://locations.jamba.com/ca/san-diego/4725-clairemont-dr,ChIJAfxdNfYA3IARtTIoc_B7WIc,19344023202150
+234,Tony's Fresh Mexican Food,7122 Miramar Rd,San Diego,CA,92121,32.88009,-117.16111,1,4.0,448,+18585664152,https://www.facebook.com/Tonys-Fresh-Mexican-Food-391896437668421/,ChIJT85Qck3_24ARQ0x8Jlw10h8,15592358493250
+235,Mendocino Farms,180 Broadway Suite 102,San Diego,CA,92101,32.716003,-117.16356,1,4.2,285,+16193983860,http://www.MendocinoFarms.com,ChIJ0zyUpURV2YARMBKuORbzrgE,21584797972920
+236,Taco Fiesta,2939 Alta View Dr,San Diego,CA,92139,32.677082,-117.03931,1,4.1,415,+16194798385,,ChIJ8fGxbclR2YARVepj7vgbui4,6624877203450
+237,Little Nap Cafe,142 University Ave,San Diego,CA,92103,32.74841,-117.16308,1,4.3,153,+16196772117,https://www.facebook.com/profile.php,ChIJP8xMLdFV2YARg5VW9OZwr78,6631457922176
+238,Denny's,3750 Anderson Ave Bldg 3750,San Diego,CA,92145,32.884712,-117.13843,1,4.3,437,+18585271002,https://locations.dennys.com/CA/SAN-DIEGO/248779,ChIJAQZhgGP_24AR6iTLqOhxfKs,414204996093
+239,STP Bar-N-Grill,5487 Clairemont Mesa Blvd,San Diego,CA,92117,32.83388,-117.17393,2,4.7,958,+18584306911,http://www.stpbar-n-grill.com,ChIJGbw4v2AB3IARPjsUthZ5ZKI,18180836162408
+240,Urban Mo's Bar & Grill,308 University Ave Hillcrest,San Diego,CA,92103,32.748344,-117.16238,2,4.6,2670,+16194910400,http://www.urbanmos.com/,ChIJtTchiNBU2YARyAGB1DCh6PI,11845975836064
+241,Starbucks,4645 Carmel Mountain Rd.,San Diego,CA,92130,32.92041,-117.21421,1,4.3,193,+18583506704,https://www.starbucks.com/store-locator/store/8244/carmel-mountain-e-ocean-air-4645-carmel-mountain-rd-203-san-diego-ca-921306630,ChIJR9peDK4H3IARdGdHsc4mT1g,6438551748506
+242,Swami's Cafe,16475 Paseo Del Sur Suite 105,San Diego,CA,92127,33.02034,-117.12324,,4.3,468,+18585241065,http://swamiscafe.com,ChIJlQ8T6_z324ARG1T6aRxzENA,23598217639488
+243,Ocean Beach Pier Cafe,5091 Niagara Ave,San Diego,CA,92107,32.74684,-117.25337,2,4.5,1489,+16192263474,,ChIJffVC8zqq3oAR4t4sOCGhYzI,2092821438900
+244,Square Pizza Co,4508 Cass St Suite C,San Diego,CA,92109,32.79763,-117.25223,1,4.8,861,+18584124469,http://squarepizzaco.com,ChIJN85-0uwB3IARVXt9ruqIZLI,14011340993274
+245,Little Chef Restaurant,4902 Newport Ave Ocean Beach,San Diego,CA,92107,32.74616,-117.24944,1,3.6,336,+16192223255,https://www.facebook.com/pages/Little-Chef-Chinese-Take-Out/113498785350869,ChIJ38jSVjeq3oARAcfSz_27IO0,18635957483483
+246,Jack in the Box,1636 Euclid Ave,San Diego,CA,92105,32.722054,-117.08526,1,3.7,1488,+16192640061,https://www.jackinthebox.com/,ChIJrRERVftT2YARM74_B9YZiZ4,15422976630816
+247,Break Point,945 Garnet Ave,San Diego,CA,92109,32.79705,-117.25261,2,3.8,186,+18582744018,http://breakpointpb.com/,ChIJ07zX7ycB3IAR9WFLLCD_6D4,13331945778932
+248,Wine Pub,2907 Shelter Island Dr Ste. # 108,San Diego,CA,92106,32.72183,-117.23042,2,4.6,136,+16197589325,http://www.thewinepubsd.com/,ChIJOzzB46Kr3oARDh5fDt526-8,5672567800620
+249,Starbucks,5131 College Ave,San Diego,CA,92115,32.77143,-117.06974,2,3.7,186,+16195949915,https://www.starbucks.com/store-locator/store/18658/sdsu-housing-administration-5131-college-ave-san-diego-ca-92115-us,ChIJ1VtvxoVW2YARkLfVGun9Ti4,11650912772864
+250,Doggos Gus,2302 El Cajon Blvd,San Diego,CA,92104,32.54454,-117.03561,1,4.2,389,+17604272409,https://www.facebook.com/DoggosGus/,ChIJ9UGbtY5V2YAR87_IadEB3k4,21903930611214
+251,Tony's Mac N Melt,7005 Navajo Rd,San Diego,CA,92119,32.80415,-117.04392,1,4.7,193,+16194614098,https://www.facebook.com/tonysmacnmelt/,ChIJ3TJEp99T2YAR5sitPuomJ7s,26710589911148
+252,Popeyes Louisiana Kitchen,9045 Mira Mesa Blvd,San Diego,CA,92126,32.91578,-117.12982,1,4.0,1534,+18585301664,https://www.popeyes.com/store-locator/store/restaurant_83668,ChIJBzFsz-P424AROpMnxsGZN30,12877352104275
+253,Board & Brew,9880 Hibert St Suite E-3,San Diego,CA,92131,32.915592,-117.11459,1,4.5,1000,+18586892739,https://boardandbrew.com/,ChIJkbfGhxf524ARj-rYh2RtNUs,25441908869199
+254,Pueblo,877 Hornblend St,San Diego,CA,92109,32.79596,-117.253426,2,4.3,1192,+18584123312,https://www.pueblopb.com/,ChIJOZn5Gu0B3IAR6cx7A6qOaEA,9768385218292
+255,Kiki Sushi,600 University Ave,San Diego,CA,92103,32.925816,-117.27874,2,3.7,200,+16192600881,http://foodeist.com/place/kiki-sushi,ChIJ21Ip5dpU2YAR2x_uZakn6ug,5071387652352
+256,Papas and Tacos,2239 1st Ave,San Diego,CA,92101,32.72884,-117.16363,1,4.5,901,+16192336079,https://www.mypapastacos.com/,ChIJOSt4w7BU2YARTonvgdj2l4s,5489607304848
+257,Acai House,4545 La Jolla Village Dr Suite F-14,San Diego,CA,92122,32.873486,-117.20982,,4.7,40,+18588867170,http://www.acaihouse.com,ChIJLx8Yc5gH3IAROkFA1mkKJHU,2288939895904
+258,Rubio's Coastal Grill,3406 College Ave Suite A,San Diego,CA,92115,32.74232,-117.05169,1,4.5,1045,+16195834969,https://www.rubios.com/restaurant-locations/california/san-diego/san-diego-college-ave,ChIJvcuGr8tW2YARq6F4ZL3CKfA,26390408180934
+259,Epic Wings,8660 Rio San Diego Dr Suite 102,San Diego,CA,92108,32.77536,-117.14382,2,4.1,341,+16192305998,https://locations.epicwingsnthings.com/epic-wings-1a006668692a,ChIJezDqQgJV2YARMIliP5R5jTI,21855278125800
+260,Sugar Factory,701 5th Ave Theatre Box,San Diego,CA,92101,32.712635,-117.159744,,3.7,1349,+16198142225,https://sugarfactory.com/location/sugar-factory-san-diego/,ChIJg8aiTlhT2YARzXbZ26WWWSI,18393253454043
+261,Himilayan Yak & Yeti,6784 El Cajon Blvd,San Diego,CA,92115,32.76897,-117.05205,2,4.6,470,+16193033155,http://himalayanyakandyeti.com/,ChIJmSI0d9NX2YARGZ4ZbyboykU,8087311788066
+262,Stars & Stripes Mart,2907 Shelter Island Dr,San Diego,CA,92106,32.72196,-117.23051,,3.4,63,,,ChIJOzzB46Kr3oARilpXCeVB5cw,19729205280323
+263,Starbucks,1552 Rosecrans Street,San Diego,CA,92106,32.72716,-117.22752,2,4.1,615,+16197581728,https://www.starbucks.com/store-locator/store/87720/rosecrans-ingelow-1552-rosecrans-street-san-diego-ca-921062262-us,ChIJOWxfEKOr3oAR-3Xbnv98-sc,123552241260
+264,Olala Crepes,453 5th Ave,San Diego,CA,92101,32.710197,-117.16009,,4.1,525,+16192305700,http://www.olalacrepes.com,ChIJGS2PrKZT2YAR-byKXW8Npag,20260940890432
+265,Marlene's Tea and Cakes,14677 Via Bettona,San Diego,CA,92127,32.98982,-117.1599,,4.5,191,+18587564320,http://www.MarlenesTeaAndCakes.com,ChIJG3LXEMP324ARhEEyRxh-Dh4,13350601370988
+266,Subway,611 K Street Suite A,San Diego,CA,92101,32.708086,-117.158956,,3.8,421,+16195250022,https://restaurants.subway.com/united-states/ca/san-diego/611-k-street,ChIJa09OTFpT2YARLISFAEHFzd8,695727501482
+267,Domino's Pizza,756 DENNERY RD Ste C3,San Diego,CA,92154,32.579823,-117.034676,1,2.4,109,+16196142600,https://www.dominos.com/en/,ChIJxyhAPqtP2YAReAuhu3JCpgE,25222931274145
+268,Subway,2335 Roll Drive Suite 1,San Diego,CA,92154,32.555808,-116.937226,,4.3,332,+16196619066,https://restaurants.subway.com/united-states/ca/san-diego/2335-roll-drive,ChIJC0cTbgBH2YARPOQ46LlAUXc,22100331391912
+269,Chipotle Mexican Grill,5650 Balboa Ave Ste &106,San Diego,CA,92111,32.8205,-117.17898,1,3.7,460,+18583802316,https://locations.chipotle.com/ca/san-diego/5650-balboa-ave,ChIJJSai9c5e7IARKBOHTN4RmYg,21713978092978
+270,The Incredible Egg,11828 Rancho Bernardo Rd,San Diego,CA,92128,33.02354,-117.0757,2,4.2,833,+18585927731,http://theincrediblecafe.com,ChIJ-85jRdTw24ARuQXtty86V6Y,7451081962408
+271,Starbucks,7007 Friars Road,San Diego,CA,92108,32.76766,-117.16627,,4.5,17646,,https://www.starbucks.com/store-locator/store/1043001/fashion-valley-mall-lvl-2-food-7007-friars-road-856-san-diego-ca-92108-us,ChIJ-Vi3YjFV2YARwrGaFNvAayQ,5973597105939
+272,Peet's Coffee & Tea,350 University Ave,San Diego,CA,92103,32.74858,-117.16193,1,4.4,463,+16192965995,http://peets.com,ChIJ7TBjgNBU2YARypyeWTF4UXY,6546188045214
+273,Taste of the Himalayas,3185 Midway Dr,San Diego,CA,92110,32.749924,-117.209076,2,4.1,879,+16198666922,http://tasteofthehimalayassandiego.com,ChIJhSt9VOOq3oARdD1JW35Y2x0,12695578305540
+274,The Butcher Shop,5255 Kearny Villa Rd,San Diego,CA,92123,32.830055,-117.140945,2,4.4,1766,+18585652272,https://www.butchershopsandiego.com/,ChIJgaPNM7r_24ARCehz_8fLm1o,7224976889767
+275,Ben & Jerry's,859 A West Harbor Drive,San Diego,CA,92101,32.70918,-117.17146,,4.0,557,+16195950412,https://www.benjerry.com/seaport,ChIJ0Ya7mFVT2YAR868mpmf_D9Q,7041942847584
+276,Starbucks,1702 Garnet St,San Diego,CA,92109,32.802,-117.23895,1,4.0,62,+18582738340,https://www.starbucks.com/store-locator/store/11256/vons-san-diego-2116-1702-garnet-st-san-diego-ca-921093350-us,ChIJ_Sy4Tb8B3IAR20cKycWAJ_w,28916544051325
+277,El Toro Mexican Grill,470 S Meadowbrook Dr,San Diego,CA,92114,32.697998,-117.02677,2,4.3,63,+16197736689,https://www.facebook.com/El-Toro-Mexican-Grill-821973534549020/,ChIJ9yxdxR1R2YARYDAHjq_i6hA,14178876393206
+278,Silver Streak Cafe,Santa Fe Depot,San Diego,CA,92101,32.71651,-117.1695,,3.4,24,+16195310816,,ChIJ7fMsvKtU2YARnIyWJi52m0Q,29237714566284
+279,Starbucks,8310 Mira Mesa Blvd,San Diego,CA,92126,32.91526,-117.14493,1,3.6,53,+18582714830,https://www.starbucks.com/store-locator/store/15044/vons-san-diego-2136-8310-mira-mesa-blvd-san-diego-ca-921262606-us,ChIJJ3KhxO3424AR_RieAwkrJkI,4805103747400
+280,El Rincon Restaurante,119 W San Ysidro Blvd,San Diego,CA,92173,32.552685,-117.045166,1,4.5,960,+16192070079,http://www.rinconrestaurante.com/,ChIJn3yU5RdJ2YARaj_ULwobx_k,16315891692030
+281,7-Eleven,3019 Meade Ave,San Diego,CA,92116,32.757035,-117.129801,,3.5,65,+16192825635,https://www.7-eleven.com/locations/ca/san-diego/3019-meade-ave-21799,ChIJ1VtaK-5U2YARNSAhDwOtTAQ,1170504559452
+282,Harley Gray Kitchen and Bar,902 W Washington St,San Diego,CA,92103,32.75006,-117.17152,2,4.4,768,+16199558451,http://www.harleygraykitchenandbar.com/,ChIJ9-EektRU2YARENRCk3Zayhk,833624969125
+283,Buca di Beppo Italian Restaurant,10749 Westview Pkwy,San Diego,CA,92126,32.916603,-117.118286,2,4.0,1941,+18585362822,https://locations.bucadibeppo.com/us/ca/san-diego/10749-westview-pkwy,ChIJPQmpEhn524ARXjjKABNGYJ0,12863566713762
+284,Endzone Pub and Grill,2859 University Ave,San Diego,CA,92104,32.74816,-117.13218,,4.2,150,,http://Endzonepubngrill.com,ChIJ94J9svZU2YARlk1B6WptcRI,16842070887880
+285,Cold Stone Creamery,4705 Clairemont Dr Ste B,San Diego,CA,92117,32.829716,-117.20494,,3.9,187,+18582705552,https://www.coldstonecreamery.com/stores/20053,ChIJL_5GNfYA3IARZLeA1X53Txc,3723732039240
+286,Starbucks,600 West Broadway,San Diego,CA,92101,32.71588,-117.16905,1,3.9,581,+16192330393,https://www.starbucks.com/store-locator/store/11095/broadway-kettner-san-diego-600-west-broadway-suite-115-san-diego-ca-921013351,ChIJyzf_y6tU2YARrr_zxTbgWC0,5989024621628
+287,Pho Hoa,4717 El Cajon Blvd,San Diego,CA,92115,32.755795,-117.09288,1,4.5,1768,+16192836431,,ChIJl72EljxU2YARBkhIMY1IqnQ,15652659992600
+288,Super Cocina,3627 University Ave,San Diego,CA,92104,32.7495,-117.11485,1,4.5,1573,+16195846244,http://supercocinasd.com/,ChIJX56a0lxU2YARiCwoJ6W_xX8,28930669297803
+289,Rigoberto's,5070 Federal Blvd,San Diego,CA,92102,32.72181,-117.08596,1,3.8,874,+16192624200,http://foodeist.com/place/rigoberto-s,ChIJ6822reRT2YARtU7A6EalsT4,23642097868440
+290,Chili's Bar and Grill,3494 Sports Arena Blvd,San Diego,CA,92110,32.75391,-117.21108,2,4.2,2035,+16192231107,http://www.chilis.com/locations/us/california/san-diego/sports-arena,ChIJ_XZk8vqq3oARJraWIWyh6TI,23683812622880
+291,Ike's Love And Sandwiches,3545 Del Mar Heights Rd C6,San Diego,CA,92130,32.954178,-117.230515,1,4.0,197,+18583569554,http://locations.ikessandwich.com/ca/sandiego/sandwich-shop-401.html,ChIJbcGLUbkJ3IARBIJvO0FKiiA,26976053123838
+292,7-Eleven,2920 Adrian St,San Diego,CA,92110,32.752017,-117.22663,,3.0,45,+16192247979,https://www.7-eleven.com/locations/ca/san-diego/2920-adrian-st-13642,ChIJZ3vDTVeq3oARHDhl0zr6Zh8,1751288434490
+293,Chins Szechwan Restaurant,15721 Bernardo Heights Pkwy,San Diego,CA,92128,33.002056,-117.05906,2,4.4,460,+18586760166,http://www.govisitchins.com,ChIJ57Q2Hb3w24ARx765PNeQcUM,29099855076182
+294,Gasslamp Burger,738 5th Ave,San Diego,CA,92101,32.713123,-117.16022,1,3.9,353,+16192551839,http://gaslampburger.com/,ChIJ06EdOShT2YARNtkVp2RDESU,30420809757942
+295,Bali Hai,2230 Shelter Island Dr,San Diego,CA,92106,32.71938,-117.22041,2,4.4,3747,+16192221181,http://www.balihairestaurant.com/,ChIJuRI-fnWr3oARbFcnXXJjs2M,29215303399192
+296,Bay Park Fish Company,4121 Ashton St,San Diego,CA,92110,32.78163,-117.20672,2,4.6,1682,+16192763474,http://bayparkfishcompany.com,ChIJn9M6bpuq3oARMD0xl-yvElQ,13924498538496
+297,Full Moon Sushi & Kitchen Bar,926 5th Ave,San Diego,CA,92101,32.715046,-117.160286,3,4.5,782,+16193105711,http://fullmoonsandiego.com,ChIJQTz69KdU2YARuiWDgWb_s24,19386982068300
+298,Wawa Cafe,9040 Friars Rd,San Diego,CA,92108,32.780075,-117.13312,,3.7,3,+16196240536,,ChIJe7CDGW9V2YAR5SzpXs0e72s,3827580264945
+299,Los Panchos Tacos & Cantina,441 E Washington St,San Diego,CA,92103,32.749718,-117.16079,2,4.3,1643,+16192955828,https://lospanchostacosandcantina.com/,ChIJKUzaItJV2YARusBMsd-YZfU,32503591534326
+300,Upper East Bar,435 6th Avenue,San Diego,CA,92101,32.709667,-117.15888,2,3.9,15,+16195318744,http://www.hotelsolamar.com/rooftop-bars-san-diego/,ChIJ1xUJWOhT2YARprlUJTXIIro,8374683562370
+301,The Hole in the Wall Bar,2820 Lytton St,San Diego,CA,92110,32.74357,-117.21075,2,4.6,573,+16192269019,https://theholesandiego.com/,ChIJbd9c6wKr3oARjSZrxEZ2A7Q,28303871891438
+302,El Cuervo Taco Shop,110 W Washington St,San Diego,CA,92103,32.750137,-117.164185,1,4.4,681,+16192959713,http://orderelcuervomexicanrestaurant.com/,ChIJnSll0NBU2YARiT-Ga79itzM,4546571042486
+303,Pitchers,9920 Carmel Mountain Rd,San Diego,CA,92129,32.96094,-117.11394,2,4.4,768,+18584843777,https://www.facebook.com/PitchersSD/,ChIJWwBn4sX524ARVHrBMtCEQJQ,850556781372
+304,King's Fish House,825 Camino de La Reina,San Diego,CA,92108,32.76692,-117.156784,2,4.4,2136,+16195741230,http://www.kingsfishhouse.com/,ChIJla_-uCRV2YARnElYBZQpZu4,19520154661200
+305,ARTIFACT,1439 El Prado Mingei International Museum,San Diego,CA,92101,32.731125,-117.15087,2,4.5,184,+16197047523,https://mingei.org/visit/artifact,ChIJQavEkr1U2YARXYhwGAXCJDU,21267751906500
+306,Panda Express,120 Washington St.,San Diego,CA,92103,32.750142,-117.163777,1,4.1,788,+16192971326,https://www.pandaexpress.com/locations/ca/san-diego/120-washington-st,ChIJPabNyNBU2YARDhW4FQA0cEU,2662787198805
+307,Chiba II,10645 Tierrasanta Blvd Ste H,San Diego,CA,92124,32.82135,-117.10024,2,4.3,182,,,ChIJ_5td0hn-24ARz24LBlW31x0,31433488846695
+308,Coco's Bakery Restaurant,825 W San Ysidro Blvd,San Diego,CA,92173,32.558903,-117.06011,2,4.1,558,+16194284981,http://www.cocosbakery.com/,ChIJk2xyLCpV2YARP2uyEW9E4m4,29334711802396
+309,Subway,9242 Miramar Rd,San Diego,CA,92126,32.894186,-117.127517,,3.7,312,+18586933395,https://restaurants.subway.com/united-states/ca/san-diego/9242-miramar-rd,ChIJyfh579X424ARPHcg7pewKFc,31197438002584
+310,Soul Food City,2707 Boston Ave,San Diego,CA,92113,32.693535,-117.13562,2,4.4,737,+16196790385,http://Soulfoodcity313.com,ChIJw-bzwdZT2YAR5v8Xtotglto,9360248552804
+311,Ray's Mexican Restaurant,2885 El Cajon Blvd,San Diego,CA,92104,32.75493,-117.1317,1,4.4,434,+16192804011,http://raysmexican.com/,ChIJi39fhflU2YARL1xUYuN7RUQ,8975850808450
+312,Brewery & Tasting Room,1205 Knoxville St,San Diego,CA,92110,32.77177,-117.20468,,4.6,520,+16192752215,http://coronadobrewing.com/locations-new/san-diego-tasting-room/,ChIJ_-id3JOq3oAR4AswqfMm2ys,12652931224000
+313,Mom's Pizza,3420 Tripp Ct,San Diego,CA,92121,32.91486,-117.23487,2,4.6,723,+18582013225,http://www.momspizzasd.com,ChIJO6gTWLEH3IARhBdCAehFzto,15440446230000
+314,Vela at Hilton San Diego Bayfront,1 Park Blvd,San Diego,CA,92101,32.703156,-117.15891,,3.9,69,+16195643333,http://www3.hilton.com/en/hotels/california/hilton-san-diego-bayfront-SANCCHH/dining/index.html,ChIJC0ZfMUVT2YARq2AsWEScRoI,14961722614891
+315,La Marque,3590 5th Ave,San Diego,CA,92103,32.74303,-117.16073,1,4.3,280,+16195505397,http://www.lamarquecafe.com/,ChIJRS4x3cVU2YAR88crc9zmfqA,26847843816372
+316,Polanco Kitchen & Bar,901 Camino Del Rio S,San Diego,CA,92108,32.76355,-117.15647,2,3.9,52,+16195439000,http://www.facebook.com/polanco.kitchen/,ChIJx1eaDyRV2YAR7J-tVFwoYcI,13886912571220
+317,Chick-fil-A,17115 Camino Del Sur,San Diego,CA,92127,33.021362,-117.12614,1,4.5,810,+18587591865,https://www.chick-fil-a.com/locations/ca/del-sur,ChIJE1CyAUv224ARerqwqboRHxs,23501455621020
+318,Starbucks,5980 Village Way,San Diego,CA,92130,32.96122,-117.19118,1,4.1,290,+18587207297,https://www.starbucks.com/store-locator/store/1010327/carmel-valley-del-mar-height-5980-village-way-b-101-san-diego-ca-921302408-us,ChIJ6W_rbQkI3IARniRe1nEwTyE,18677282960400
+319,Panda Express,"4545 La Jolla Village Dr.,",San Diego,CA,92122,32.871615,-117.210075,1,3.4,163,+18586788880,https://www.pandaexpress.com/locations/ca/san-diego/4545-la-jolla-village-dr,ChIJ9YPXLNMA3IARoFZTrbIPGEc,3984566152380
+320,Gran Havana,745 4th Ave,San Diego,CA,92101,32.713226,-117.161026,,4.6,695,+16192342826,http://www.granhavana.com,ChIJJbmePFhT2YARbluPFJ35BIE,15958203524886
+321,Starbucks,3515 Brinser St,San Diego,CA,92136,32.68471,-117.12853,1,3.9,17,+16195569472,https://www.starbucks.com/store-locator/store/18706/naval-base-san-diego-waterfron-3515-brinser-st-building-45-san-diego-ca-921365518,ChIJ4ajQumVT2YAR5Y4huILU7AA,13687261870110
+322,kafe at the Abpopa,3776 Fourth Avenue,San Diego,CA,92103,32.746517,-117.1619,2,4.8,261,+16197215201,https://www.kafeattheabpopaca.com,ChIJf4CyVWxV2YARbAq24PmATUQ,17089717274838
+323,Del Taco,3896 Clairemont Dr,San Diego,CA,92117,32.81136,-117.201164,1,4.0,1298,+18582703788,https://locations.deltaco.com/us/ca/san-diego/3896-clairemont-dr,ChIJIacu6kAA3IARF5Jn4qEfsRA,23813881183602
+324,Paradise Biryani Pointe,8995 Mira Mesa Blvd Suite A,San Diego,CA,92126,32.9139,-117.1318,2,3.8,1077,+18587579051,http://sdparadise.com/,ChIJ1yuVeuH424ARxJzW4SOK60o,4804821469590
+325,Juan Bertos Mexican Food,9530 Miramar Rd,San Diego,CA,92126,32.89453,-117.12296,1,3.8,334,+18586899635,https://www.facebook.com/JuanbertosMexicanFood/,ChIJC9ugpSv524ARk0RApqWfjkE,1623084065498
+326,Wingstop,1901 El Cajon Blvd,San Diego,CA,92104,32.754787,-117.144806,2,4.0,636,+16192979464,https://www.wingstop.com/location/wingstop-603-san-diego-ca-92104/menu,ChIJQ4ThAORU2YARHr_J59xXjCs,21126248674645
+327,Cb Asian Bowls,7950 Convoy Ct,San Diego,CA,92111,32.835423,-117.14928,2,4.5,540,+18587379212,http://www.cbasianbowls.com,ChIJH4ILl0v_24ARDgQ9mQLdpds,30736342080960
+328,Craft House North Park,4101 30th St Suite C,San Diego,CA,92104,32.752377,-117.12994,,4.5,108,+16192551151,http://www.crafthousenorthpark.com,ChIJAcrkkUdV2YARrPSYqiXrz7k,16185083357575
+329,Denny's,3704 Camino Del Rio W,San Diego,CA,92110,32.755093,-117.205185,2,4.1,3735,+16192959200,https://locations.dennys.com/CA/SAN-DIEGO/247897,ChIJJRjbwyNV2YAROjm0--1eBAY,31732117590636
+330,Sufi Mediterranean Cuisine,5915 Balboa Ave,San Diego,CA,92111,32.819187,-117.1777,2,4.0,1214,+18582787770,http://www.sufisd.com,ChIJe4liIXQA3IARF77fnAtmOBA,8982239246496
+331,7-Eleven,7427 Mission Gorge Rd,San Diego,CA,92120,32.806255,-117.078361,,4.1,31,+16192870410,https://www.7-eleven.com/locations/ca/san-diego/7427-mission-gorge-rd-20722,ChIJxfp7sOJV2YAR9pMC6tln-dw,5230851753402
+332,7-Eleven,7801 Clairemont Mesa Blvd,San Diego,CA,92111,32.832252,-117.152726,,3.6,71,+18582926040,https://www.7-eleven.com/locations/ca/san-diego/7801-clairemont-mesa-blvd-19273,ChIJYfTdMpj_24ARxv7KTZoUEPA,32330930319230
+333,Bottle Craft,2161 India St,San Diego,CA,92101,32.72812,-117.170235,2,4.6,536,,http://bottlecraftbeer.com,ChIJtRyHvbNU2YARGY27jb8JoPY,15739418144460
+334,Knockout Pizzeria,6755 Mira Mesa Blvd Ste 119 Plaza Sorrento Shopping Center,San Diego,CA,92121,32.90623,-117.17257,1,3.9,266,+18586788545,https://kopzsd.com/,ChIJow4v7J3424AR4nRsb2iVXz0,34099094013048
+335,Jomaru Korean Hot Pot (조마루 감자탕),4681 Convoy St St D,San Diego,CA,92111,32.825546,-117.15437,2,4.4,250,+18587374005,https://jomaruusa.com/,ChIJz9FyBaD_24ARZsKMxrVv9P4,22305121155460
+336,Panama 66,1450 El Prado Balboa Park,San Diego,CA,92101,32.73179,-117.15105,2,4.5,2367,+16196961966,http://www.panama66.com/,ChIJ55ekNrxU2YAR9Ea6hbtFySA,21299556635200
+337,Sushi Deli 1,228 W Washington St,San Diego,CA,92103,32.75013,-117.165695,2,4.5,2075,+16192319597,http://www.sushideliusa.net/sushi-deli-1.html,ChIJd3uSM9FU2YARJVqC_aLjqdA,3411292141287
+338,Philz Coffee,12873 El Camino Real Highlands Town Center,San Diego,CA,92130,32.95144,-117.232704,1,4.2,376,+18583690090,https://www.philzcoffee.com/locations-sd,ChIJyWor1JoJ3IARIINC5JXQkyo,9778068574956
+339,Aperture Coffee,8125 Ronson Rd A,San Diego,CA,92111,32.828926,-117.147995,2,4.7,147,+16197871630,https://aperturecoffee.shop/,ChIJeXRm2_P_24ARnUMmuV88dE0,4428062696193
+340,Olympic Cafe,2310 University Ave,San Diego,CA,92104,32.74875,-117.13915,2,4.7,1585,+16196929082,http://www.olympiccafesd.com/,ChIJmzGDLe5U2YARxVzTkXXV2hg,595961807571
+341,City Dragon,2885 El Cajon Blvd Suite C,San Diego,CA,92104,32.75493,-117.1317,1,4.0,587,+16192802255,http://www.citydragonnp.net/,ChIJi39fhflU2YAR4PowuFqCZy0,35500476492780
+342,Pizza Hut,2931 Beyer Blvd.,San Diego,CA,92154,32.57517,-117.06849,1,4.1,595,+16197549621,https://locations.pizzahut.com/ca/san-diego/2931-beyer-blvd,ChIJV4oYhspO2YARVLI50ZkiTo4,30433417752507
+343,Costa Brava,1653 Garnet Ave,San Diego,CA,92109,32.79999,-117.23967,2,4.6,1854,+18582731218,http://www.costabravasd.com/,ChIJR7wNvcAB3IARlodw27RoQ9A,20136648684129
+344,Denny's,3920 W. Point Loma,San Diego,CA,92110,32.7551,-117.220764,2,4.3,2102,+16192262233,https://locations.dennys.com/CA/SAN-DIEGO/247896,ChIJFclKeFiq3oARngybt9yL9QM,16194528222264
+345,Sabores Colombianos,3695 University Ave,San Diego,CA,92104,32.74957,-117.11337,2,4.5,719,+16197567742,http://saborescolombianossd.com/,ChIJ0cXjIUNU2YARhRELjF7RucQ,32829983969805
+346,Lucca's Pizzeria and Market,2195 Station Village Way Suite A,San Diego,CA,92108,32.775097,-117.1422,1,4.6,282,+16196845125,https://luccaspizzamarket.com/,ChIJ9zLK0j5V2YARz4xPWPa-BKE,18642928658840
+347,California Fish Grill,8285 Mira Mesa Blvd Ste 2 SAN DIEGO CA 92126 Suite B,San Diego,CA,92126,32.912277,-117.14532,2,4.4,550,+18584004066,http://cafishgrill.com,ChIJIU_3jUv524ARGM_x1S3BNlI,33166359356900
+348,Tahona,2414 San Diego Ave,San Diego,CA,92110,32.75146,-117.193275,,4.4,533,+16192552090,http://tahonabar.com/,ChIJqysCa8er3oAR4pnNYobhIG4,6387532107211
+349,The Cordova,1319 Morena Blvd,San Diego,CA,92110,32.77221,-117.20184,,4.8,320,+16192305950,http://www.thecordovabar.com,ChIJC6txAHer3oAR8qSvS7LYmLg,29517152346760
+350,East Village Tavern and Bowl,930 Market St,San Diego,CA,92101,32.71179,-117.15594,2,4.2,730,+16196772695,http://tavernbowl.com/san-diego,ChIJTQyLS1lT2YARUQp2vCehuUg,25833912188012
+351,BVM B.B.Q. Grill Pizzeria,625 69th St,San Diego,CA,92114,32.71167,-117.04899,2,4.2,242,+16195017100,http://www.bvmbbqgrillpizzeria.com/,ChIJH_h1mxFR2YARYkzxin2mopg,18730963464199
+352,Tender Greens,4545 La Jolla Village Dr,San Diego,CA,92122,32.870583,-117.21059,2,4.2,774,+18584559395,http://www.tendergreensfood.com/,ChIJ9YPXLNMA3IARVHk4NN147Z8,1967952149856
+353,7-Eleven,13985 Torrey Del Mar,San Diego,CA,92130,32.970033,-117.161588,,2.8,113,+18587808647,https://www.7-eleven.com/locations/ca/san-diego/13985-torrey-del-mar-34358,ChIJO7YuAvr324ARHBdnOsUK1gM,35089395751380
+354,SD TapRoom,1269 Garnet Ave,San Diego,CA,92109,32.79843,-117.24671,1,4.6,1198,+18582741010,http://sdtaproom.com/,ChIJPx_62eoB3IARc63X_e8tXGA,8296795722058
+355,Blue Foot Bar & Lounge,3404 30th St,San Diego,CA,92104,32.74135,-117.13036,2,4.4,740,+16197567891,https://www.facebook.com/BluefootSD/,ChIJR7LKEItU2YARrPqqz92AiEY,23046970338593
+356,Corner Cafe,3614 5th Ave,San Diego,CA,92103,32.74361,-117.16074,2,4.4,192,+16195429942,,ChIJQyYnq0xV2YARg1m_jmkcGZk,9628807354518
+357,Tropical Star,6163 Balboa Ave,San Diego,CA,92111,32.81959,-117.17469,2,4.4,539,+18588747827,http://tropicalstarrestaurant.com/,ChIJCc61lXUA3IARRV-kC7S2wY8,32860056346520
+358,Broken Yolk Cafe,1851 Garnet Ave,San Diego,CA,92109,32.80064,-117.23605,2,4.4,1873,+18582709655,http://www.thebrokenyolkcafe.com/location/broken-yolk-cafe-pacific-beach/,ChIJUaqDd8cB3IARSxtRm1laXKo,24156045385875
+359,Pecs,2046 University Ave,San Diego,CA,92104,32.74862,-117.14286,1,4.1,181,+16192960889,http://www.pecsbar.com/,ChIJtS0HO-9U2YARhl6Z0_D9lsI,25803247423940
+360,The Smoking Gun,555 Market St,San Diego,CA,92101,32.71123,-117.15949,2,4.2,872,+16192333836,http://www.thesmokinggunsd.com/,ChIJ28NZollT2YAR5SZ-i7ThDso,24865136227575
+361,Ortega's,4888 Newport Ave,San Diego,CA,92107,32.74581,-117.24924,1,4.4,397,+16192224205,http://ortegascocina.mobile-webview.com/index.php,ChIJDYMvRTeq3oARPBrDFyd4LVY,32764738551726
+362,Jamba,764 Dennery Rd. Suite #104,San Diego,CA,92154,32.57952,-117.034874,1,4.6,13,+16198378299,https://locations.jamba.com/ca/san-diego/764-dennery-rd,ChIJdVWcacpP2YARKw52hewYJ6c,24759604307172
+363,Rose Canyon Deli,4901 Morena Blvd #301,San Diego,CA,92117,32.82856,-117.22934,1,4.6,99,+18582707600,http://www.RoseCanyonDeliSD.com/,ChIJayoyiAYB3IARQjgT90oFc7w,35983120147440
+364,Pizza Hut,4090 El Cajon Blvd Ste C,San Diego,CA,92105,32.75553,-117.10761,1,4.0,420,+16195840800,https://locations.pizzahut.com/ca/san-diego/4090-el-cajon-blvd,ChIJwzw44EZU2YARCAtu3xyhCqM,8940814049340
+365,The Coffee Bean & Tea Leaf,3939 Governor Drive,San Diego,CA,92122,32.854332,-117.20359,1,4.4,522,+18587840286,https://www.coffeebean.com/store/usa/san-diego/governor-drive-san-diego-dt,ChIJJ06g2sMA3IAROXDF8sS-6M0,3673786628545
+366,Orient Valley,9951 Carmel Mountain Rd,San Diego,CA,92129,32.960583,-117.11273,1,4.2,116,+18584849637,https://orientvalley-filipinocuisine.com/,ChIJ1YC1-BOZ5BQRjugqwv8b_gU,6569331591680
+367,Bowl Bar,3460 Adams Ave,San Diego,CA,92116,32.76359,-117.11876,2,4.0,27,+16197959995,https://www.bowlbarsd.com/,ChIJeep8ltJV2YAR_teTYlR79XI,4398578577759
+368,Trattoria Don Pietro,2415 San Diego Ave,San Diego,CA,92110,32.75171,-117.19385,2,4.2,744,,http://www.trattoriadonpietro.com/menu,ChIJiRWacUqr3oARynOuHZzrjyE,5682315894004
+369,Food2you,1404 Vacation Rd,San Diego,CA,92109,32.77505,-117.23855,,4.2,4912,+18582404913,http://paradisepoint.com/san-diego-dining/food-2-you/,ChIJmZ5nBnSq3oARXvYizDSFkwM,17557697580610
+370,Antique Row Cafe,3002 Adams Ave,San Diego,CA,92116,32.763035,-117.129974,1,4.6,1129,+16192829750,http://antiquerowcafe.menutoeat.com,ChIJcSOvMP5U2YARGT87c03n5q4,2510685703296
+371,Banzai Bar,3048 Midway Dr,San Diego,CA,92110,32.75043,-117.20685,,4.7,479,+16193105536,http://www.banzaibar.com,ChIJS7bxZeOq3oAR2ym4437c3u4,34445041105129
+372,Bankers Hill Bar & Restaurant,3665 N Harbor Dr San Diego Airport Terminal 1,San Diego,CA,92101,32.73231,-117.19746,,3.8,187,+18586689529,https://www.bankershillsd.com/,ChIJ9_TA4j2r3oARJj1p5s35fic,12543310199630
+373,Empanada Kitchen,2855 El Cajon Blvd Ste 3 North Park Location,San Diego,CA,92104,32.75497,-117.13235,2,4.7,235,+16192289565,,ChIJTXfpCO9V2YARDmvqNNLptsA,21768181495770
+374,North Italia,3715 Caminito Ct Ste 680,San Diego,CA,92130,32.951912,-117.23456,2,4.3,925,+18582527720,http://www.northitalia.com/locations/san-diego-ca-one-paseo/,ChIJ6WdDMxEJ3IARo29VddiB9SM,1334657064654
+375,Panera Bread,12156 Carmel Mountain Road Suite 300,San Diego,CA,92128,32.98532,-117.07652,2,3.9,598,+18583859066,https://locations.panerabread.com/ca/san-diego/12156-carmel-mountain-road.html,ChIJuYK6gKrw24ARlFNqJrwXjCY,40387285826712
+376,7-Eleven,1469 State St,San Diego,CA,92101,32.720741,-117.1663,,3.1,112,+16196969517,https://www.7-eleven.com/locations/ca/san-diego/1469-state-st-34184,ChIJpf2Oja5U2YARz_f483OVK94,8508935790342
+377,Sauced Pizzeria,4475 Ingraham St,San Diego,CA,92109,32.799473,-117.24051,2,4.7,497,+18582037135,https://www.saucedpizzeriapb.com/,ChIJ3Zc6gg4B3IARLVn3v2PZfW8,3842367279230
+378,Todo Sushi,9823 Carroll Canyon Rd Eucalyptus Square,San Diego,CA,92131,32.902634,-117.11506,2,4.5,832,+18585660206,http://www.todosushisd.com/,ChIJvaiqVCX524ARcM0gzoqQpNY,7308576368160
+379,Sammy's Woodfired Pizza & Grill - Del Mar,12925 El Camino Real,San Diego,CA,92130,32.95193,-117.23254,,4.5,2909,+18582596600,http://sammyspizza.com,ChIJAzaa1ZwI3IARheNs8Rneqbo,14617903549632
+380,Mi Amigo Mexican Food & Sea Food,4408 University Ave,San Diego,CA,92105,32.74988,-117.09966,1,4.1,117,+16192821899,https://www.facebook.com/people/Mi-Amigo-Mexican-Food-Sea-Food/100063909440327/,ChIJLY8xhBVU2YAR0HNgFQ8R3mc,1834409207917
+381,7-Eleven,2295 Palm Ave,San Diego,CA,92154,32.583343,-117.084334,,3.2,44,+16197375505,https://www.7-eleven.com/locations/ca/san-diego/2295-palm-ave-27163,ChIJxcBt2B5M2YARLPlM5VyGl-A,2458431987128
+382,The Coffee Bean & Tea Leaf,12070 Caramel Mountain Rd #296,San Diego,CA,92128,32.984173,-117.077484,1,4.3,425,+18585927348,https://www.coffeebean.com/store/usa/san-diego/carmel-mountain,ChIJjTh2bgD624ARGp8PZlPP5G4,28901676497598
+383,Northgate Market,5403 University Ave,San Diego,CA,92105,32.74784,-117.07857,,4.3,2477,+16192659701,https://www.facebook.com/pg/NorthgateGonzalezMarket36/about/,ChIJQd7waadW2YAR6ViRreePh3c,36477292667936
+384,Grapes & Hops Deli,811 Market St,San Diego,CA,92101,32.71096,-117.15693,,4.6,106,+16192555383,http://grapesandhopsdeli.com,ChIJa5rFQ1lT2YAR6QQdHiKGVHM,1665939191938
+385,LIV Juice Bar and Smoothies,1251 University Ave,San Diego,CA,92103,32.74822,-117.1523,1,4.7,431,+16196883997,https://www.facebook.com/livjuicessd/,ChIJTfg4Kt1U2YARigiXuDNPJlg,2026813514348
+386,Cup of Yo Frozen Yogurt,955 Catalina Blvd Ste 104,San Diego,CA,92106,32.7221,-117.24501,,4.4,110,+16192232523,http://cupofyo.com/,ChIJ_XIhQcer3oARciuYCQAZbJY,38551991337755
+387,Thai Time III,4310 Genesee Ave Ste 111,San Diego,CA,92117,32.82177,-117.1837,2,4.6,636,+18582784949,http://www.thaitime3.com/,ChIJrcZItHEA3IARFQaAo-FT3PY,32792342921039
+388,Hodad's Downtown,945 Broadway,San Diego,CA,92101,32.715767,-117.15575,2,4.6,4516,+16192346323,http://hodadies.com/home/,ChIJQyH7U19T2YAR13g2kpalb8Y,8408249997678
+389,Taco Love Mobile Catering,Greater San Diego Area,San Diego,CA,92104,33.18511,-117.08401,,4.1,38,+16197159375,,ChIJBYaWuulT2YARqN3DrU_GF-c,39922725324300
+390,Citrina Berry Fresh,2963 Beyer Blvd,San Diego,CA,92154,32.574814,-117.06786,2,4.3,47,+16193490833,http://citrinaberryfresh.com/,ChIJVf1EbltP2YARZaolLInpPkY,2209718502185
+391,Pure Cupcakes,1772 Garnet Ave Suite A,San Diego,CA,92109,32.801903,-117.23801,1,4.3,20,+18582742253,http://www.purecupcakes.com,ChIJj_7hZvkB3IARsHtQU42_bbM,16769408459055
+392,Extraordinary Desserts,2929 5th Ave,San Diego,CA,92103,32.736046,-117.160164,,4.4,3134,+16192942132,http://www.extraordinarydesserts.com/,ChIJc7zR9MdU2YARk5MLergidlk,8517896549774
+393,Jersey Mike's Subs,5971 Lusk Blvd.,San Diego,CA,92121,32.896958,-117.19316,1,4.2,53,+18584123330,https://www.jerseymikes.com/20318/san-diego-ca,ChIJy-rzWr8H3IARYRk40bnHBWk,4776387277384
+394,Papa's Pizza Pasta & Subs,11385 Poway Rd Ste 110,San Diego,CA,92128,32.94536,-117.08477,1,4.2,115,+18584866777,http://www.papaspizzamenu.com/,ChIJ2TiIpFYA3IARAClwUPrVYLo,16745286761294
+395,Caked,8680 Miralani Dr #129,San Diego,CA,92126,32.89661,-117.137436,,4.8,267,+18583804668,http://www.caked.love,ChIJDcugs-7524ARk9965Ff6TFc,17287739655180
+396,Jack in the Box,3850 Clairemont Mesa Blvd,San Diego,CA,92117,32.82799,-117.205315,1,3.8,1015,+18582735861,https://www.jackinthebox.com/,ChIJt_h28VgA3IARsdigQVzZhlU,26010188112962
+397,Pushkin Russian Restaurant & Bar,750 6th Ave,San Diego,CA,92101,32.71333,-117.15932,2,4.5,786,+16194961908,http://pushkinrestaurantsd.com/,ChIJFWj9WlhT2YARREmFWY-qOGc,27283619000084
+398,Burger King,1220 South 28th St,San Diego,CA,92113,32.693447,-117.13422,1,3.8,878,+16192313537,https://burgerking.com/store-locator/store/restaurant_2562,ChIJXza27A5T2YARzgN15zrpn4A,9796592672199
+399,Juicin'java,5030 Camino de La Siesta,San Diego,CA,92108,32.76439,-117.16043,,3.4,5,,,ChIJrf3EdSVV2YARUXz9Ob0xRtk,7231778200740
+400,Cafe de L' Opera,910 J St Suite:1,San Diego,CA,92101,32.709347,-117.156204,1,4.5,335,+16196479676,https://www.facebook.com/pages/Cafe-de-L-Opera/134742203352342,ChIJ20Bv9FtT2YARfw_e_YBB2YI,6183982922904
+401,Popeyes Louisiana Kitchen,3295 Palm Ave.,San Diego,CA,92154,32.583393,-117.06261,1,3.7,253,+16198165570,https://www.popeyes.com/store-locator/store/restaurant_86578,ChIJ5RtBQ25N2YARqjTV_1ddjVo,15790409092564
+402,North Park Sushi & Grill,3021 University Ave,San Diego,CA,92104,32.74816,-117.12944,,4.4,322,+16192970924,http://hanaoka-restaurant.com,ChIJ-esTgPZU2YARSdly4MatGqE,19187487635767
+403,The Mrkt,500 Hotel Cir N,San Diego,CA,92108,32.763523,-117.168976,,3.4,46,,http://www.towncountry.com/dine/mrkt,ChIJdaGg4xFV2YARSjtcZD_X_XY,7081372333180
+404,Jane's Cafe,591 Camino de La Reina Suite 130,San Diego,CA,92108,32.765694,-117.16131,1,4.7,305,+16193802501,http://janescafemissionvalley.com,ChIJ5ZqXqmRV2YARCwVJphq2v04,30217379871472
+405,Royal Stone Bistro,3401 1st Ave,San Diego,CA,92103,32.741,-117.1638,2,4.6,302,+16197388550,http://royalstonebistro.com/,ChIJVxj3Os9U2YARI_VDPMRYY4Q,763481672550
+406,Thrusters Lounge,4633 Mission Blvd,San Diego,CA,92109,32.79816,-117.25567,2,4.0,479,+18584836334,https://www.facebook.com/ThrustersLounge/,ChIJC8WJX40B3IARcuEGm1-H-fE,14681625856352
+407,Crab Pub,6011 El Cajon Blvd,San Diego,CA,92115,32.76052,-117.068,2,4.3,879,+16192296679,http://www.crabpub.com/,ChIJ7SRK15lW2YARAZaUWZUm-1o,1036128678156
+408,Por Vida,2146 Logan Ave,San Diego,CA,92113,32.69877,-117.13998,1,4.5,774,+16195648568,http://www.porvidacollective.com/,ChIJCyXLNG1T2YARz7xa-1oI_mg,613287450126
+409,Chaba Thai Kitchen,8010 Clairemont Mesa Blvd,San Diego,CA,92111,32.83317,-117.14997,2,4.5,530,+18585037777,http://www.chabathaikitchen.com,ChIJn7vDr6L_24ARFMoY_Cqsx38,40126359814376
+410,The Nood Bar,4596 30th St,San Diego,CA,92116,32.760826,-117.130424,1,4.3,320,+16192692117,https://nooodbar.com/,ChIJ6XzrwjNV2YARpGF0khihjoA,6391764791040
+411,Harbor Island Liquor and Deli,2040 Harbor Island Dr Ste 104,San Diego,CA,92101,32.72591,-117.21111,1,4.1,63,+16192918015,http://www.harborislandwest.com/marina-businesses/hi-liquor-a-deli.html,ChIJ3x5KOw2r3oARY9rDhc6vq7I,40078909351614
+412,Newtopia,10045 Carroll Canyon Rd Suite A,San Diego,CA,92131,32.90319,-117.110725,1,4.7,719,+16199903805,http://www.drinknewtopia.com,ChIJL-jIkDD524ARZwG9fp1wELI,41518721784904
+413,Burger King,3676 Market St,San Diego,CA,92102,32.711906,-117.115425,1,3.7,853,+16192668982,https://burgerking.com/store-locator/store/restaurant_3305,ChIJgzh6eZpT2YARjp0VPM94s7o,10721133682064
+414,Taco Bell,6104 University Ave,San Diego,CA,92115,32.753235,-117.064354,1,4.1,1434,+16192862756,https://locations.tacobell.com/ca/san-diego/6104-university-ave.html,ChIJoUnafrxW2YARAbvTlHwT55w,13635262554970
+415,Tender Greens,1640 Camino Del Rio N Suite FS-7,San Diego,CA,92108,32.76855,-117.1484,2,4.3,1343,+16198948916,https://www.tendergreens.com/locations/825/mission-valley,ChIJn7jEMhhV2YAR7vyHikLmJ1E,31768163623504
+416,Samburgers Little Italy,550 W Date St Suite B,San Diego,CA,92101,32.723137,-117.168175,2,4.2,124,+16192697187,http://www.eatsamburgers.com/,ChIJtczjl79V2YARQx6Z9qykl0o,10185416595680
+417,Starbucks,160 W. Broadway,San Diego,CA,92101,32.71594,-117.16461,1,3.5,66,+18584270800,https://www.starbucks.com/store-locator/store/1040407/pickup-broadway-front-160-w-broadway-san-diego-ca-921013811-us,ChIJL9bqGUNV2YARLMAr2cvlJ7U,7755218026010
+418,Bonchon,4690 Convoy St Suite 102,San Diego,CA,92111,32.82665,-117.15581,2,4.5,540,+18588361287,https://locations.bonchon.com/ll/US/CA/San-Diego/4690-Convoy-St,ChIJH4ILl0v_24ARDgQ9mQLdpds,12100305862075
+419,Acapulco Bay Seafood,3233 Mission Blvd,San Diego,CA,92109,32.77273,-117.2511,,4.2,47,+16193708637,http://www.acapulcobayseafood.com,ChIJKdcwdfOr3oARxxxRJLENiV4,16670607964936
+420,Taco Bell,1090 Outer Rd,San Diego,CA,92154,32.57677,-117.08113,1,4.1,2115,+16194237996,https://locations.tacobell.com/ca/san-diego/1090-outer-rd.html,ChIJsaERJR1M2YARFDT0ZtZGxII,31641245271657
+421,Green Acre Campus Pointe,10300 Campus Point Dr,San Diego,CA,92121,32.89304,-117.22332,2,4.4,545,+18584509907,http://greenacresd.com/campus-pointe,ChIJGx9dguEG3IARy4xQaWDJbaM,25260731503672
+422,Cafe Coyote,2461 San Diego Ave Ste 200,San Diego,CA,92110,32.75221,-117.19423,2,4.3,14228,+16192914695,http://www.cafecoyoteoldtown.com/,ChIJaSX9Z96q3oAR90ucsDUDL5w,5374713587990
+423,TapRoom Beer Co,2000 El Cajon Blvd,San Diego,CA,92104,32.755527,-117.1436,2,4.6,759,+16195397738,http://www.taproombeerco.com,ChIJnbf1pedV2YARSjP-rUwM2xM,29427087414480
+424,Luna Grill,5950 Village Way Ste 105 Suite 105,San Diego,CA,92130,32.961586,-117.19034,,4.8,1145,+18583569312,https://locations.lunagrill.com/luna-grill-4d557aa2a08c,ChIJrR0pdwkI3IARmMb-e8nvRuk,39464683728624
+425,Sammich House Deli & Juice Bar,1048 7th Ave,San Diego,CA,92101,32.71635,-117.1586,1,4.7,147,+16196961466,https://www.sammichhousesd.com/,ChIJQTa8pwxV2YARGTifr_pK-Rw,7472773953050
+426,Delhi Kitchen,11975 Carmel Mountain Rd,San Diego,CA,92128,32.98233,-117.07531,2,4.2,432,+18583850165,http://www.delhikitchen.com/,ChIJAbe8GQH624ARcrmL7Dk84Rc,45427536028800
+427,El Agave Restaurant & Tequileria,2304 San Diego Ave B,San Diego,CA,92110,32.749676,-117.19218,2,4.5,2039,+16192200692,https://www.facebook.com/elagaverestaurant/,ChIJ-02uXt-q3oARsmeTXs7qOMU,7734753883438
+428,Roxy's Tacos,815 C St,San Diego,CA,92101,32.71562,-117.1558,1,4.8,1127,+16193494839,,ChIJq6aF4mBR2YARsaZs2SuCqwA,41673539011570
+429,Krisp Pizza,1036 7th Ave,San Diego,CA,92101,32.716187,-117.15862,,4.4,655,+16192326100,http://www.bestdamnbeershop.com,ChIJG6FYdqdU2YARCqHT9TmYn28,40462663146917
+430,7-Eleven,2576 Clairemont,San Diego,CA,92117,32.790698,-117.203452,,3.2,69,+16192761159,https://www.7-eleven.com/locations/ca/san-diego/2576-clairemont-34274,ChIJ7Sc6JicA3IART5cK17Zfo_o,43694816954607
+431,Park Blvd Express,1219 Market St,San Diego,CA,92101,32.71105,-117.15322,1,3.4,216,,http://parkboulevardexpress.com/,ChIJRZKknF5T2YARDw8nTBiCPT8,33545330565747
+432,Ketch Grill & Taps,1360 N Harbor Dr,San Diego,CA,92101,32.71562,-117.1558,2,4.5,1216,+16197194963,http://ketchgrillandtaps.com/,ChIJbSVPwXCr3oARzTXaTFYHwd4,7433014734570
+433,OO Tea,7330 Clairemont Mesa Blvd Ste 106,San Diego,CA,92111,32.83338,-117.16081,2,4.5,662,+18585059535,http://www.facebook.com/OOTea.SanDiego/,ChIJF_b-GZv_24ARuFbPdIDpwI8,8025391798000
+434,Fredcel Lumpias & Catering,3876 38th St,San Diego,CA,92105,32.74926,-117.11223,1,4.7,448,+16192822305,https://www.facebook.com/Fredcels/,ChIJz48L-UJU2YARPqf6-jx8CMw,32714725589590
+435,Domino's Pizza,4161 Voltaire St,San Diego,CA,92107,32.74319,-117.23453,2,4.2,137,+16192242445,http://www.dominos.com,ChIJtX0-hmqr3oAR20Ze9gdolxA,26548463665308
+436,Casa Machado,3750 John J Montgomery Dr,San Diego,CA,92123,32.81212,-117.14034,2,4.5,1607,+18582924716,http://www.casamachadomex.com,ChIJD78u6dr_24ARwPd9G5aNv60,29283158096928
+437,Taco Bell,8389 Mira Mesa Blvd,San Diego,CA,92126,32.91245,-117.14252,1,3.8,1102,+18585663366,https://locations.tacobell.com/ca/san-diego/8389-mira-mesa-blvd.html,ChIJsRuayu7424ARGsGze6F3zqQ,45102540399468
+438,Mike's Giants New York Pizza II,1144 Hollister St,San Diego,CA,92154,32.57574,-117.08427,1,4.4,213,+16194236080,http://www.mikesgiantnewyorkpizza2.com/#/,ChIJvRmqTANM2YARsEhuKbK7bQc,2602829069375
+439,KFC,2829 University Ave,San Diego,CA,92104,32.748126,-117.133053,1,3.6,710,+16192970534,https://locations.kfc.com/ca/san-diego/2829-university-ave,ChIJESr1T_FU2YARr4Z1w0Y0bSs,33540404841216
+440,The Patio Marketplace,8910 University Center Ln Suite 120,San Diego,CA,92122,32.871075,-117.22698,,4.6,100,+18582523261,http://thepatiomarketplace.com/aventine,ChIJcbPB8NMG3IAR7g9BdB3anOE,4634757181152
+441,Domino's Pizza,3520 Ashford St,San Diego,CA,92111,32.808292,-117.160255,1,4.0,335,+18582926991,https://www.dominos.com/en/,ChIJUc30ZuX_24ARhSXzARR_DRQ,30433820881512
+442,Chile Peppers,10299 Scripps Trl,San Diego,CA,92131,32.91248,-117.0795,1,4.4,205,+18585784210,http://chilepeppersmexeat.com,ChIJ9S2LClj524AR4pACvwLgmoA,22805738402112
+443,Burger Lounge,16490 Paseo Del Sur,San Diego,CA,92127,33.02084,-117.12391,1,4.4,815,+18587591388,http://www.burgerlounge.com/locations/location-delsur,ChIJd7tvL__224AR2lT-RgNjnuM,12942197466128
+444,Cinnabon,4463 Camino De La Plaza,San Diego,CA,92173,32.5436,-117.03808,2,4.1,82,+16197466565,https://locations.cinnabon.com/ca/san-ysidro/4463-camino-de-la-plaza,ChIJYZx2YANJ2YARWQjKZ8m_R4I,869492041278
+445,Basilico La Pizzeria,4207 Park Blvd,San Diego,CA,92103,32.754246,-117.14603,,4.5,106,+16195347942,http://basilicolapizzeria.com,ChIJBacnZSBV2YARco1gQe2w7IA,2275190290987
+446,Carruth Wine Cellars,2215 Kettner Blvd,San Diego,CA,92101,32.727474,-117.17066,,4.4,77,+18588479463,http://carruthcellars.com,ChIJodgxXxer3oARuNTL45uEgyI,25558667019850
+447,Pizza Hut,2695 Mission Village Drive,San Diego,CA,92123,32.794624,-117.12359,1,4.1,345,+18584967996,https://locations.pizzahut.com/ca/san-diego/2695-mission-village-drive,ChIJE-cWG51V2YARGRoti4SN5vA,25515745300344
+448,Taste of Hunan,9880 Hibert St Ste 2,San Diego,CA,92131,32.91559,-117.11459,2,4.3,558,+18588605118,http://www.tasteofhunanca.com,ChIJ8TYi7-T524ARuLhtVYD247w,41661605391084
+449,Nolita Hall,2305 India St,San Diego,CA,92101,32.728565,-117.17024,2,4.3,1449,,http://www.nolitahall.com,ChIJ-WvuO5FV2YAR0j8aVSiN84s,39637065297060
+450,NASCAR Wings,10749 Westview Parkway,San Diego,CA,92126,32.916542,-117.11831,,,0,+18884956104,,ChIJ25GMqW3524ARfSQTlxVKykE,19349588639535
+451,Yard House,1640 Camino Del Rio North Ste 157,San Diego,CA,92108,32.76799,-117.14882,2,4.5,3870,+16195740468,https://www.yardhouse.com/locations/ca/san-diego/san-diego-mission-valley-mall/8363,ChIJ2yNjaBhV2YARYivRRpI9AS8,23118635669087
+452,Starbucks,16773 Bernardo Center Drive,San Diego,CA,92128,33.01816,-117.07346,1,4.4,251,+18584851598,https://www.starbucks.com/store-locator/store/1010339/bernardo-ctr-dr-bernardo-pla-16773-bernardo-center-drive-c-san-diego-ca-9212825,ChIJP849X9Hw24ARH5pyyLcz96U,39150954032196
+453,Mountain Mike's Pizza,7377 Jackson Dr,San Diego,CA,92119,32.80254,-117.04419,1,4.0,324,+16194696453,https://www.mountainmikespizza.com/locations/san-diego-jackson/,ChIJp7tE1EdW2YARhVZ3T5ekwu4,42965274899760
+454,Poki One N Half,9353 Clairemont Mesa Blvd,San Diego,CA,92123,32.83099,-117.12775,1,4.6,623,+18585654280,http://www.onenhalf.com/default_temp.html,ChIJI_ilwbT_24ARFNn8g1N6osY,20965442182230
+455,Chipotle Mexican Grill,1025 Camino De La Reina Ste 2,San Diego,CA,92108,32.767975,-117.15305,1,3.6,1158,+16194910481,https://locations.chipotle.com/ca/san-diego/1025-camino-de-la-reina,ChIJub5uJiNV2YARJgFiosA3ncM,43797589586334
+456,Eureka!,4353 La Jolla Village Drive,San Diego,CA,92122,32.86976,-117.21232,2,4.3,1289,+18582103444,http://eurekarestaurantgroup.com/blog/locations/san-diego/,ChIJW31CNC0H3IARZz8Dswqn984,30569069233072
+457,Mignon Pho + Grill,3860 Convoy St Suite 117,San Diego,CA,92111,32.813877,-117.1538,2,4.2,679,+18582780669,http://mignonpho.com,ChIJrzCgFOn_24ARF6NkBQ6bbNA,45647049474894
+458,Jersey Mike's Subs,6030 Village Way,San Diego,CA,92130,32.962619,-117.189825,1,3.8,60,+18589257517,https://www.jerseymikes.com/20313/san-diego-ca,ChIJdydB1IUJ3IARbE_WkiVDvDk,29513380789743
+459,Chris' Liquor and Deli,2275 Sunset Cliffs Blvd,San Diego,CA,92107,32.75072,-117.24208,1,4.6,617,+16192220518,http://www.chrisliquor.com,ChIJmRfLCUeq3oARIHIWo81MqYI,14667315093400
+460,Tajima Ramen Bar,3739 6th Ave Ste B,San Diego,CA,92103,32.74594,-117.15936,2,4.4,2412,+16192695050,https://www.facebook.com/pages/Tajima-Ramen-Bar/491908590941710,ChIJISLCyVhT2YAR0RWrk2Vfg1E,5195042311030
+461,Starlite Lounge,3175 India St,San Diego,CA,92103,32.73649,-117.17493,3,4.4,1355,+16193589766,http://www.starlitesandiego.com,ChIJ8aKflTSr3oAR-pSbTLFwINQ,9514093013409
+462,Craft and Commerce,675 W Beech St,San Diego,CA,92101,32.720905,-117.16892,2,4.5,1931,+16192692202,http://www.craft-commerce.com,ChIJX9Q7y61U2YAREFYBL9squjo,35985877569504
+463,San Diego Wine & Spirits,2244 San Diego Ave,San Diego,CA,92110,32.74833,-117.19137,,4.3,65,+16192983612,https://www.facebook.com/profile.php,ChIJB5P0tiCr3oARd6g89iAGyoA,27692727399885
+464,Tavern At The Beach,1200 Garnet Ave,San Diego,CA,92109,32.79838,-117.24821,2,4.3,735,+18582726066,http://tavernatthebeach.com/,ChIJg01RN-sB3IARpeWBVdpFhzU,21852294966243
+465,Bunz Gourmet Burger Joint,475 Hotel Cir S,San Diego,CA,92108,32.75998,-117.166824,1,4.0,705,+16192986515,https://www.bunzsd.com,ChIJsSKpsi5V2YARRmfoxfhGMmI,34471585117914
+466,AL Teatro Panini Grill,1254 3rd Ave,San Diego,CA,92101,32.7186,-117.16214,2,4.6,105,+16192305519,http://www.alteatrocatering.com,ChIJQ9wloqhU2YARceFZeZagL8o,29522337660115
+467,L&L Hawaiian Barbecue,3410 Palm Ave,San Diego,CA,92154,32.58405,-117.06038,1,4.0,448,+16194297988,http://www.hawaiianbarbecue.com,ChIJt0FRdblO2YAR-2PzZerf3M0,18864548016895
+468,Starbucks,3980 W. Point Loma Blvd,San Diego,CA,92110,32.75429,-117.22326,1,4.0,548,+16195232056,https://www.starbucks.com/store-locator/store/1005809/w-point-loma-midway-3980-w-point-loma-blvd-a-san-diego-ca-921105601-us,ChIJvVrETViq3oAR5XRgMmvtOIE,22092995796336
+469,Pho Hut And Grill,5352 Balboa Ave,San Diego,CA,,32.819405,-117.18197,1,4.5,819,,,ChIJbTLkInIA3IAROhitjETgKH0,35140400453847
+470,The Coffee Bean & Tea Leaf,10550 Craftsman Way,San Diego,CA,92127,33.01985,-117.11079,1,4.3,425,+18583857895,https://www.coffeebean.com/,ChIJjTh2bgD624ARGp8PZlPP5G4,7254228904014
+471,Trujillo's Taco Shop,5119 College Ave,San Diego,CA,92115,32.77119,-117.06958,1,4.3,782,+16195834182,http://www.trujillostacoshop.com/trujillostacoshop.com/Welcome.html,ChIJi0bhuIVW2YARhsWG48wwau0,50194839986888
+472,Hot Licks,853 W Harbor Dr Seaport Village,San Diego,CA,92101,32.709213,-117.1707,,4.7,259,+16192354000,http://www.hotlickssauces.com,ChIJl_OYdVVT2YARNsN8qGaLhIY,13868952537580
+473,Joe & the Juice,4545 La Jolla Village Dr Ste E-25,San Diego,CA,92122,32.871403,-117.211464,1,3.4,257,,http://joejuice.com,ChIJyd89Hy0H3IARXS2o_sxuAjc,6190858943400
+474,Eda Mami,5950 Santo Road Suite G,San Diego,CA,92124,32.8394,-117.098724,2,4.7,237,+18582788929,https://www.edamamiexperience.com/,ChIJv3dOZ2n-24ARkqdERvqRYfY,27626029089930
+475,Grab & Go Subs,6435 Mission Gorge Rd,San Diego,CA,92120,32.79066,-117.0974,1,4.5,170,+16192824722,https://www.grabandgosubs.com/locations/,ChIJl5lWicFV2YARA0cHTgAy95k,16539318820650
+476,Todo Pa' La Cruda,2851 Imperial Ave,San Diego,CA,92102,32.70624,-117.13273,1,4.4,416,+16199195096,http://www.todopalacruda.com,ChIJ9cGwS8NT2YAR2zE00LIK7pI,47836483643396
+477,California Pizza Kitchen,11602 Carmel Mountain Rd,San Diego,CA,92128,32.97998,-117.08191,2,4.1,1117,+18586754424,http://www.cpk.com,ChIJkUrBGP_524ARQMNwO-NrJ9A,9767320174265
+478,Andell's Bakery & Kitchen,9926 Carmel Mountain Rd Suite F,San Diego,CA,92129,32.96097,-117.11396,,4.7,51,+18585388308,http://www.andellsbakery.com,ChIJWwBn4sX524ARySmXGMwYuxs,2866201648240
+479,Cori Trattoria Pastificio,2977 Upas St,San Diego,CA,92104,32.740936,-117.12976,2,4.6,493,+16195736159,http://coripasta.com,ChIJSR-9fN9V2YARcR9QvNYUr3w,43661768152471
+480,Denny's,5445 Kearny Villa Rd.,San Diego,CA,92123,32.83224,-117.13787,2,4.3,2268,+18582777272,https://locations.dennys.com/CA/SAN-DIEGO/247895,ChIJrfafr7r_24ARRnG6Tby4ZwQ,46501982231124
+481,Boiling Passion,3904 Convoy St #114-115,San Diego,CA,92111,32.81486,-117.15462,2,4.4,140,+18582688168,https://boiling-passion.business.site/,ChIJHZlLNZj_24ARu_IsCVFHeww,48074591472908
+482,The Barrel Room-Vintage Wine Bar & Bistro,16765 Bernardo Center Dr,San Diego,CA,92128,33.017506,-117.074104,2,4.3,452,+18586737512,http://thebarrelroomsandiego.com/,ChIJWcs4RNLw24ARh8T3gEv7Zlw,2533473572974
+483,Rasraj Restaurant,9252 Miramar Rd,San Diego,CA,92126,32.89467,-117.12804,2,3.6,668,+18586896919,http://www.rasrajsd.com/,ChIJt3Ky7dX424ARJvwO24ZxV4Y,41519631142480
+484,Taqueria Los Ruiz,5010 Cass St Suite K,San Diego,CA,92109,32.806072,-117.25498,1,4.5,272,+18582706343,http://taquerialosruiz.homestead.com/index.html,ChIJM6dSAoIB3IARLj98QmM7lGw,6426618939472
+485,La Playa Taco Shop,3973 Mission Blvd,San Diego,CA,92109,32.78944,-117.25318,1,4.6,1344,+18584887405,http://www.laplayatacoshop.com/,ChIJ89_Tq-8B3IARxzG907jCik4,15587990552368
+486,Harborside Thai & Sushi,2844 Main St,San Diego,CA,92113,32.69321,-117.13266,2,4.4,175,+16192698424,https://www.facebook.com/harborsidethai/,ChIJLbA61A5T2YARc2lp5axR-Qk,50419614950250
+487,Nekter Juice Bar,2445 Truxtun Rd Ste 109,San Diego,CA,92106,32.73667,-117.21672,1,4.2,132,+16197940999,http://locations.nekterjuicebar.com/ll/US/CA/San-Diego/2445-Truxton-Road,ChIJE7jY7Qar3oARX3_epuICWuk,17290894448947
+488,Addison Restaurant,5200 Grand Del Mar Way,San Diego,CA,92130,32.941456,-117.19898,4,4.5,542,+18583141900,http://www.addisondelmar.com/,ChIJrVfI5sEH3IARfAmbFue9xNc,10454675657811
+489,Jamba,10406 Friars Rd. #B,San Diego,CA,92120,32.79105,-117.09927,1,3.9,142,+16196402120,https://locations.jamba.com/ca/san-diego/10406-friars-rd,ChIJhY4GycFV2YARfeV7K_JNJy4,46549031125212
+490,Sweet and Savory Gourmet,3574 Mount Acadia Blvd,San Diego,CA,92111,32.80661,-117.18287,,4.6,18,,,ChIJEZ58UQ4A3IAR9c2pAAcTMjo,38900987453328
+491,Ginza Sushi,16715 Bernardo Center Dr,San Diego,CA,92128,33.01729,-117.07522,2,4.4,338,+18584877647,,ChIJwdGSZdLw24AR9SyX2JYDKgg,49787640172738
+492,7-Eleven,9701 Carmel Mt Rd,San Diego,CA,92129,32.961912,-117.117482,,3.9,65,+18584840772,https://www.7-eleven.com/locations/ca/san-diego/9701-carmel-mt-rd-19223,ChIJk0ivA8_524ARks7fSkv4pHM,8035493269895
+493,The Girls Deli,3075 El Cajon Blvd ABC Market & Deli,San Diego,CA,92104,32.71562,-117.1558,1,4.5,233,+16192289992,,ChIJHxjV4Q9V2YARzUqwFEdXaXw,9848653096997
+494,Iceskimo,4609 Convoy St Suite B,San Diego,CA,92111,32.824104,-117.15503,,4.6,668,+18582161111,http://iceskimo.com,ChIJLYZoZpT_24ARg8mrwPnivbY,47860938940500
+495,El Carrito Restaurant,2154 Logan Ave,San Diego,CA,92113,32.69868,-117.13984,1,4.4,528,,http://www.elcarritorestaurant.com,ChIJX4YCyxJT2YARS7V7LPshJ90,45163677107725
+496,Citrus Restaurant,8110 Aero Dr Sheraton Fourpoints,San Diego,CA,92123,32.810066,-117.15059,,3.9,1998,+18582778888,http://www.fourpointssandiegohotel.com,ChIJIWxGQN3_24ARr4FOPJM_vUY,47439132452352
+497,Gazua Sushi And Dining Pub,6755 Mira Mesa Blvd Ste 111,San Diego,CA,92121,32.90623,-117.17257,2,4.3,160,+18587320045,https://www.gazuapub.com/,ChIJPZHv0Jj524ARW_QpQPDXLmI,10050341676320
+498,Curryosity Juniper street san diego,3022 Juniper St,San Diego,CA,92104,32.729588,-117.12935,2,4.3,872,+16192550660,http://Curryositysd.com,ChIJR1qwt7dV2YARvfusOxG9TWY,36126421801435
+499,Denny's,1601 Rosecrans St.,San Diego,CA,92106,32.727345,-117.22658,2,4.3,2102,+16192238946,https://locations.dennys.com/CA/SAN-DIEGO/247894,ChIJFclKeFiq3oARngybt9yL9QM,15761807415921
+500,Fusion Izakaya 52,4367 Convoy St,San Diego,CA,92111,32.81938,-117.15445,2,4.1,148,+18584306689,https://www.facebook.com/izakaya52/,ChIJEWIJROv_24ARAWscsXiQAyw,9563230048372
+501,7-Eleven,1305 Garnet Ave,San Diego,CA,92109,32.798278,-117.245998,,3.2,44,+18582722670,https://www.7-eleven.com/locations/ca/san-diego/1305-garnet-ave-13623,ChIJeRGaxeoB3IAR-VGBTQiL7RA,36253270826540
+502,Mazara Pizza & Italian Deli,2302 30th St,San Diego,CA,92104,32.72984,-117.12977,2,4.3,375,+16192842050,https://mazaratrattoria.com/,ChIJxeC1U4ZU2YAR3GYGv64nCE0,22940237943990
+503,Maggie's Cafe,1985 National Ave Suite 1129,San Diego,CA,92113,32.69951,-117.14495,1,4.5,556,+16192412660,http://www.maggiescafe-barriologan.com,ChIJvYt_EMtT2YARZQ3IjJjIJvE,30259673011920
+504,Arterra,11966 El Camino Real,San Diego,CA,92130,32.936012,-117.23878,2,4.1,146,+18583696032,http://www.arterradelmar.com,ChIJCZgvpTwG3IARXw_A5bF2EMA,23249193154733
+505,King Of Thai Cuisine,6171 Mission Gorge Rd Suite 115,San Diego,CA,92120,32.78716,-117.09722,2,4.5,315,+16196409688,http://kingofthaitogo.com,ChIJNaW-QwAD3IAR9hI6El8uqoM,31156274342952
+506,Trevi Restaurant,4703 Federal Blvd,San Diego,CA,92102,32.72089,-117.09332,2,3.3,264,+16193260222,http://www.treviristorantesandiego.com/,ChIJJfyMR_BT2YAR_TZS2g6YUxs,15763809254508
+507,Ryan Bros Coffee Lane Field,900 Bayfront Ct 104,San Diego,CA,92101,32.71696,-117.1717,,4.0,62,+16195013551,https://www.facebook.com/rbclanefield/,ChIJk9boZqtU2YARptSReVmUgd8,11467893824240
+508,Bruegger's Bagels,655 West Broadway Ste 110,San Diego,CA,92101,32.715485,-117.16858,1,4.1,463,+16196969390,https://locations.brueggers.com/us/ca/san-diego/655-west-broadway,ChIJ2VpMMqpU2YARZ7OSB5aoQ-w,32811265152440
+509,Birrieria El Rey,1015 25th St,San Diego,CA,92102,32.71612,-117.14005,1,4.6,580,+16192305990,https://www.instagram.com/birria_el_rey/,ChIJxRARQpRT2YARdfbP7vS0yv8,50437247920011
+510,Gaslamp Liquor & Deli,728 4th Ave,San Diego,CA,92101,32.7129,-117.16153,,4.2,159,+16197959915,,ChIJAY__I1hT2YARwLNKfUStNxg,9816934646925
+511,McDonald's,3412 College Ave,San Diego,CA,92115,32.741512,-117.0534,1,3.6,612,+16197041800,https://www.mcdonalds.com/us/en-us/location/ca/san-diego/3412-college-ave/29483.html,ChIJrU-Tr8tW2YARszndyILxnvY,24239959470792
+512,Ike's Love And Sandwiches,1010 University Ave Ste 101,San Diego,CA,92103,32.74934,-117.15432,2,4.3,685,,http://locations.ikessandwich.com/ca/sandiego/006,ChIJqYPXvdxU2YARGaUuOAhSvFk,35954066122614
+513,Tom Ham's Lighthouse,2150 Harbor Island Dr,San Diego,CA,92101,32.72406,-117.213066,2,4.5,4669,+16192919110,http://www.tomhamslighthouse.com,ChIJ2WRAKA2r3oARvgoZnGCdJLo,18632776756293
+514,7-Eleven,5829 Mission Gorge Rd,San Diego,CA,92120,32.781535,-117.100714,,3.3,48,+16195280681,https://www.7-eleven.com/locations/ca/san-diego/5829-mission-gorge-rd-36751,ChIJT68e28dV2YARNXaBbRq0ruA,18553732406825
+515,Dae Jang Keum,7905 Engineer Rd,San Diego,CA,92111,32.825974,-117.152695,2,4.3,831,+18585732585,http://daejangkeumkoreanbbq.menutoeat.com/,ChIJIYle0pX_24ARxjcgI5TJt74,52917287015050
+516,Garage Kitchen + Bar,665 4th Ave,San Diego,CA,92101,32.712383,-117.16083,2,4.4,1104,+16192316700,http://garagekitchenbar.com,ChIJq8_kzFlT2YARhTJd6WWo1hc,34431236583408
+517,Jeongwon Korean BBQ buffet,4690 Convoy St Suite 104,San Diego,CA,92111,32.826576,-117.15571,2,4.5,644,+18582924670,http://www.facebook.com/pages/Jeong-Won-Korean-BBQ,ChIJiZyktJb_24AR1QNR2LRUsMo,53221821418161
+518,Brickyard Coffee & Tea,675 W G St,San Diego,CA,92101,32.712444,-117.16895,2,3.9,341,,https://www.facebook.com/Brickyard.Coffee.Tea/,ChIJSV9H8lVT2YAR5NMecpFYTSk,19391233852677
+519,Charminar Indian Restaurant & Catering,6755 Mira Mesa Blvd Ste 113,San Diego,CA,92121,32.90598,-117.17354,2,4.6,4784,+18582637878,https://www.indianrestaurantsandiegoca.com,ChIJeRdNExsH3IARg1m6eZr2rg4,24749731492577
+520,7-Eleven,3105 Fairmount Ave,San Diego,CA,92105,32.738648,-117.100581,,3.7,61,+16192832533,https://www.7-eleven.com/locations/ca/san-diego/3105-fairmount-ave-39198,ChIJE75oZQ1U2YARNJXSxzyoWEk,21157581832550
+521,Poke Chop,1404 Garnet Ave,San Diego,CA,92109,32.7993,-117.2444,,4.6,706,+18582258875,https://www.pokechopsd.com/,ChIJqTfvqOoB3IARZ9g4jIg9Ha0,25121806033383
+522,El Pollo Loco,419 Euclid Ave,San Diego,CA,92114,32.710163,-117.084656,1,4.7,425,+18582409668,https://restaurants.elpolloloco.com/ca/san-diego/419-euclid-ave,ChIJz1_mIUlT2YARCj8V3GzZOOE,14006629361120
+523,Popeyes Louisiana Kitchen,2810 El Cajon Blvd,San Diego,CA,92104,32.75581,-117.13347,1,4.0,807,+16197814354,https://www.popeyes.com/store-locator/store/restaurant_237543,ChIJ8YJ56ShV2YARxRVWY8x8hqE,10753961671401
+524,Dobson's Bar & Restaurant,956 Broadway Cir,San Diego,CA,92101,32.71537,-117.162834,2,4.5,511,+16192316771,http://www.dobsonsrestaurant.com/,ChIJB57vCKhU2YARpuTC6OY5Yoc,34042881392300
+525,7-Eleven,4091 Genesee Ave,San Diego,CA,92111,32.817238,-117.180229,,3.9,50,+18582921161,https://www.7-eleven.com/locations/ca/san-diego/4091-genesee-ave-15046,ChIJJzAad3MA3IAR5G_w5Sgu9Mo,28905489335440
+526,Cafe in the Park,1549 El Prado Casa del Balboa Building,San Diego,CA,92101,32.73131,-117.14997,2,3.6,169,+16193311992,https://www.balboapark.org/eat-drink/cafe-in-the-park,ChIJGQHESZZU2YARfyQrWH04FhM,51228042475264
+527,Ding Tea Balboa,5945 Balboa Ave B,San Diego,CA,92111,32.81965,-117.17755,,4.3,258,+16193433203,https://www.dingteabalboa.com/,ChIJRV8gOBsB3IARXf2eo4hJ-ss,42401799857865
+528,Lolita's,202 Park Blvd,San Diego,CA,92101,32.707573,-117.154976,1,4.4,116,+16192696055,http://lolitasmexicanfood.com/locations/downtown/,ChIJOzmiegBT2YARHriHHBUoJ5w,3319173231230
+529,Pauly's Pizza Joint,6780 Miramar Rd,San Diego,CA,92121,32.87912,-117.16906,1,4.7,661,+18585668646,http://www.paulyspizzajoint.com/,ChIJ9wXHuFT_24ARTx9Z3XblAWw,1341441168400
+530,Hot or Not Thai,4965 Cass St,San Diego,CA,92109,32.805218,-117.25408,2,4.3,169,+16193691688,http://www.hotornotthai.com,ChIJAT0yS5AB3IAR7hxsA8wHMU0,50019045132915
+531,Greenhaus Eatery,1118 Morena Blvd,San Diego,CA,92110,32.76869,-117.20038,2,4.6,278,+16194466510,http://eatgreensd.com,ChIJS5w11sar3oARpQOZflS-Vew,22691197459188
+532,Pizzeria Luigi,2121 El Cajon Blvd,San Diego,CA,92104,32.75512,-117.14206,1,4.5,1505,+16192949417,http://www.pizzerialuigi.com,ChIJoeQUb-RU2YARNZF-4Vh04Ko,17670935479881
+533,La Moreno Taco Shop,5059 Federal Blvd,San Diego,CA,92102,32.72088,-117.08635,1,4.4,150,+16192631553,,ChIJa5-j1P1T2YARAinbUJNzXTU,52246674880002
+534,Crab Hut,8280 Mira Mesa Blvd Suite E,San Diego,CA,92126,32.91464,-117.14602,,4.4,1302,+18588605225,http://www.crabhutrestaurant.com/,ChIJt29uuu3424ARBGNFHqDYZEM,41564234398676
+535,Tajima Japanese Restaurant #2,4411 Mercury St,San Diego,CA,92111,32.820312,-117.14863,2,4.4,2205,+18582785367,http://tajimasandiego.com,ChIJrc3bQMD_24ARElM3R5EUc9U,7813805060184
+536,Lorna's Italian Kitchen,3945 Governor Dr,San Diego,CA,92122,32.85391,-117.20401,2,4.4,654,+18584520661,http://www.lornasitalian.com/,ChIJE4JvzsMA3IARk3DlxxRasOI,719691775558
+537,Neu Flavor Ice Cream,6816 Panocha Court,San Diego,CA,92114,32.73296,-117.05133,,5.0,1,+15188690021,http://www.neuflavoricecream.com/,ChIJfTdaghBV2YARCC2Kn_fVlyU,48154560609870
+538,Epic Wings,5120 College Avenue #126,San Diego,CA,92115,32.770912,-117.07022,2,4.1,319,+16192863742,https://locations.epicwingsnthings.com/epic-wings-34b92c6c2942,ChIJ35rHt4VW2YARVW3vW0zHLEg,30715309858908
+539,Creative Deli,6837 Nancy Ridge Dr Ste F,San Diego,CA,92121,32.88529,-117.17578,1,4.7,116,+18584575697,https://www.facebook.com/profile.php,ChIJP8BPW1YH3IARGtYV0J6sndI,39821170799601
+540,Tribute Pizza,3077 N Park Way,San Diego,CA,92104,32.7473,-117.12803,2,4.7,1648,+16194504505,http://www.tributepizza.com,ChIJWe0EwPVU2YARoIaq_kstmvw,99830887484
+541,Ramen Ryoma,815 University Ave,San Diego,CA,92103,32.74816,-117.15682,2,4.2,522,+16195397296,http://ramenryoma.net,ChIJ5w2GLj1V2YARfNSqm-jWzMg,45233686671296
+542,URBN Coal Fired Pizza,3085 University Ave,San Diego,CA,92104,32.748318,-117.12736,2,4.4,1159,+16192557300,http://urbnnorthpark.com/,ChIJgSG95PVU2YARoQnpG18YK70,13631756131864
+543,Babycakes,1010 University Ave,San Diego,CA,92103,32.7487,-117.155014,,4.5,283,+16192964173,https://www.babycakessandiego.com/,ChIJM1jdGtlV2YARSFZhcZyZszs,42994571092596
+544,Pokez Mexican Restaurant,947 E St,San Diego,CA,92101,32.714592,-117.15577,1,4.5,1902,+16197027160,http://pokezrestaurant.com,ChIJF1qnSl9T2YARgOb26Dv4b8s,37374217920288
+545,The Coffee Bean & Tea Leaf,4463 Camino De La Plaza Suite 111,San Diego,CA,92173,32.543102,-117.03718,2,4.4,695,+16199348750,https://www.coffeebean.com/store/usa/san-diego/san-ysidro,ChIJedSw6AJJ2YARfIupU9rKVT0,24801554016819
+546,Pacifica Breeze Cafe,3225 N Harbor Dr San Diego International Airport,San Diego,CA,92101,32.732273,-117.1975,,3.7,197,+18773258777,http://www.pacificadelmar.com/breeze-cafe,ChIJuaW3CBar3oARWkT6xUXDnhM,24378592339428
+547,Calozzi's Cheesesteaks,1146 Garnet Ave,San Diego,CA,92109,32.798122,-117.24902,2,4.6,383,+18584125180,http://www.calozzis.net,ChIJOyNZuuwB3IARksCNGhV1uOk,33853172929380
+548,La Creperie,3773 30th St Ste C,San Diego,CA,92104,32.7468,-117.12977,2,4.1,162,+16197950407,http://lacreperie.menutoeat.com,ChIJicf5SfRU2YAR7--o8m-lQcc,23746013582022
+549,La Casita De Vero,6334 El Cajon Blvd,San Diego,CA,92115,32.764324,-117.062355,2,4.6,193,+16192155960,https://www.lacasitadevero.com/,ChIJeZ68rXFX2YARXewtR-2lRzU,48754489924608
+550,Chipotle Mexican Grill,8250 Mira Mesa Blvd Ste G,San Diego,CA,92126,32.91376,-117.14584,1,3.8,638,+18585862147,https://locations.chipotle.com/ca/san-diego/8250-mira-mesa-blvd,ChIJTXClQuz424ARuO8l3E4ieQk,36235941262297

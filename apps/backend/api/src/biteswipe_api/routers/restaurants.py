@@ -58,10 +58,8 @@ def nearby(
     origin_lat = math.radians(lat)
     origin_lng = math.radians(lng)
 
-    
     row_lat = func.radians(cast(Restaurant.lat, Float), type_=Float())
     row_lng = func.radians(cast(Restaurant.lng, Float), type_=Float())
-
 
     distance = (
         2
@@ -76,7 +74,6 @@ def nearby(
         )
     ).label("distance_mi")
 
-   
     d_lat = math.degrees(radius_mi / EARTH_MI)
     d_lng = d_lat / max(math.cos(origin_lat), 1e-6)
 
@@ -93,9 +90,7 @@ def nearby(
     results: list[NearbyRestaurant] = []
     for restaurant, distance_mi in session.execute(stmt).all():
         summary = RestaurantSummary.model_validate(restaurant)
-        results.append(
-            NearbyRestaurant(**summary.model_dump(), distance_mi=round(distance_mi, 2))
-        )
+        results.append(NearbyRestaurant(**summary.model_dump(), distance_mi=round(distance_mi, 2)))
     return results
 
 
@@ -108,7 +103,5 @@ def get_restaurant(restaurant_id: int, session: DbSession) -> Restaurant:
     )
     restaurant = session.scalar(stmt)
     if restaurant is None:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND, detail="Restaurant not found"
-        )
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Restaurant not found")
     return restaurant
