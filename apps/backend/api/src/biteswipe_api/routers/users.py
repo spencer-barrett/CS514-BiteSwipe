@@ -1,23 +1,11 @@
-from fastapi import APIRouter, Depends
-from google.cloud.firestore import SERVER_TIMESTAMP
+from fastapi import APIRouter
 
-from biteswipe_api.auth import get_current_user
-from biteswipe_api.firebase import get_db
-from biteswipe_api.schemas.User import UserResponse
+from biteswipe_api.dependencies import CurrentUser
+from biteswipe_api.schemas.user import UserResponse
 
-router = APIRouter(prefix="/api/users", tags=["users"])
+router = APIRouter(prefix="/api", tags=["users"])
 
 
-@router.get("/me", response_model=UserResponse)
-def me(user: dict = Depends(get_current_user), db=Depends(get_db)):
-    ref = db.collection("users").document(user["uid"])
-    snap = ref.get()
-    if not snap.exists:  # first login creates the profile
-        ref.set({
-            "email": user.get("email"),
-            "displayName": user.get("name"),
-            "createdAt": SERVER_TIMESTAMP,
-        })
-        snap = ref.get()
-    data = snap.to_dict()
-    return UserResponse(uid=user["uid"], email=data.get("email"), displayName=data.get("displayName"))
+@router.get("/me")
+def me(user: CurrentUser) -> UserResponse:
+    return UserResponse.model_validate(user)

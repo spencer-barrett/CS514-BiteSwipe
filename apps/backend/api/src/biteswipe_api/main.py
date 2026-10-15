@@ -1,40 +1,32 @@
+from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
-
-from biteswipe_api.firebase import init_firebase
-from biteswipe_api.schemas.Health import HealthResponse
-from fastapi import Depends
-from biteswipe_api.firebase import get_db
-from biteswipe_api.routers import restaurants
-from biteswipe_api.routers import restaurants, users
 from fastapi.middleware.cors import CORSMiddleware
 
+from biteswipe_api.config import get_settings
+from biteswipe_api.firebase import init_firebase
+from biteswipe_api.routers import restaurants, users
+from biteswipe_api.schemas.health import HealthResponse
 
-
+from collections.abc import AsyncGenerator
 
 @asynccontextmanager
-async def lifespan(app: FastAPI):
+async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
     init_firebase()
     yield
 
-
 app = FastAPI(lifespan=lifespan)
-
-app.include_router(restaurants.router)
-app.include_router(users.router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[get_settings().frontend_origin],
     allow_methods=["*"],
     allow_headers=["Authorization", "Content-Type"],
 )
 
-
-@app.get("/")
-async def read_root():
-    return {"message": "Hello World!"}
+app.include_router(restaurants.router)
+app.include_router(users.router)
 
 
 @app.get("/api/health")
