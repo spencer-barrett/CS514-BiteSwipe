@@ -48,9 +48,14 @@ class RestaurantSummary(BaseModel):
     @field_validator("photo_urls", mode="before")
     @classmethod
     def _flatten_photos(cls, value: Sequence[Any]) -> list[str]:
-        # Photos with no fetched url are dropped rather than emitting nulls
-        # the client would have to filter.
-        return [u for item in value if (u := getattr(item, "url", None))]
+        # Items are RestaurantPhoto rows on the first pass and plain strings
+        # when a dumped model is re-validated, so handle both. Photos with no
+        # fetched url are dropped rather than emitting nulls.
+        urls = [
+            item if isinstance(item, str) else getattr(item, "url", None)
+            for item in value
+        ]
+        return [u for u in urls if u]
 
 
 class RestaurantDetail(RestaurantSummary):
