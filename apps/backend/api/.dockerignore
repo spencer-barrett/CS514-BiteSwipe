@@ -1,0 +1,23 @@
+# Save as apps/backend/api/.dockerignore
+#
+# Without this, `COPY . ./` drags your local macOS virtualenv into a Linux
+# image -- broken binaries, hundreds of MB, and a uv sync that may silently
+# reuse the wrong interpreter.
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets never belong in an image layer.
+.env
+.env.*
+!.env.example
+*.json.key
+*-firebase-adminsdk-*.json
+
+.git/
+.gitignore
+.DS_Store
