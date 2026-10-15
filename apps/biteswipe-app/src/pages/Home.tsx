@@ -1,10 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth-context";
+import { apiFetch } from "@/lib/api";
 
 export function Home() {
   const { user, logOut } = useAuth();
   const [busy, setBusy] = useState(false);
+
+  const [profile, setProfile] = useState<{ id: number; email: string } | null>(
+    null,
+  );
+
+  useEffect(() => {
+    apiFetch("/api/me")
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .catch((err) => console.error("profile fetch failed", err));
+  }, []);
 
   async function handleSignOut() {
     setBusy(true);
