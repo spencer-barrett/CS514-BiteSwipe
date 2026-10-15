@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import datetime as dt
@@ -37,9 +36,7 @@ class RestaurantSummary(BaseModel):
     cuisines: list[str]
     # Reads `photos` off the ORM object, but also accepts its own name so a
     # dumped model can be re-validated (NearbyRestaurant does this).
-    photo_refs: list[str] = Field(
-        validation_alias=AliasChoices("photos", "photo_refs")
-    )
+    photo_refs: list[str] = Field(validation_alias=AliasChoices("photos", "photo_refs"))
 
     @field_validator("cuisines", mode="before")
     @classmethod
