@@ -3,6 +3,7 @@ import "../styles/global.css";
 import "@fontsource/inter"; // Defaults to weight 400
 import "@fontsource/inter/900.css"; // Specify weight
 import "@fontsource/inter/400-italic.css"; // Specify weight and style
+import Navbar from "@/components/Navbar.astro";
 ---
 
 <html lang="en">
@@ -15,6 +16,7 @@ import "@fontsource/inter/400-italic.css"; // Specify weight and style
     <title>Astro</title>
   </head>
   <body>
+    <Navbar/>
     <slot />
   </body>
 </html>
