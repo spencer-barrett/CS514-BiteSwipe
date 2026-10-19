@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth-context";
 import { apiFetch } from "@/lib/api";
+import { SwipeDeck } from "@/components/SwipeDeck";
 
 export function Home() {
   const { user, logOut } = useAuth();
@@ -33,6 +34,7 @@ export function Home() {
       <Button onClick={handleSignOut} disabled={busy}>
         {busy ? "Signing out…" : "Log out"}
       </Button>
+      <SwipeDeck/>
     </main>
   );
 }
