@@ -5,82 +5,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-.hero {
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  min-height: 100vh;
-  width: 100%;
-
-  background-color: #2d2e2e;
-  background-image: url("../assets/food-bg.jpg");
-  background-size: cover;
-  background-position: center;
-
-  overflow: hidden;
-}
-
-.overlay {
-  position: absolute;
-  inset: 0;
-
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-}
-
-.content {
-  position: relative;
-  z-index: 1;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  text-align: center;
-}
-
-h1 {
-  margin: 0;
-  font-size: 4rem;
-  font-weight: 800;
-  color: #ee2f36;
-}
-
-h1 span {
-  color: white;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  color: white;
-}
-
-label {
-  color: white;
-}
-
-.form {
-  display: flex;
-  gap: 1rem;
-}
-
-.form-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-#email {
-  border-radius: 20px;
-}
-
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: "Inter Variable", sans-serif;
+  --color-brand: var(--brand);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -122,6 +50,10 @@ label {
 }
 
 :root {
+  /* BiteSwipe red. Used by the hero wordmark, navbar logo and active link. */
+  --brand: #ee2f36;
+  --nav-height: 5rem; /* matches h-20 on the navbar */
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -199,5 +131,78 @@ label {
   }
   html {
     @apply font-sans;
+    background-color: black;
+  }
+}
+
+/* Hero. Element rules are scoped to .hero so they don't leak into the
+   navbar, blog or any other page, and don't beat Tailwind utilities
+   elsewhere. */
+@layer components {
+  .hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: calc(var(--nav-height) + 2rem) 1.5rem 4rem;
+    background-color: #2d2e2e;
+    background-image: url("../assets/food-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+
+  .hero .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgb(0 0 0 / 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+  .hero .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--brand);
+  }
+
+  .hero h1 span {
+    color: white;
+  }
+
+  .hero h2 {
+    margin: 0;
+    font-weight: 400;
+    color: white;
+  }
+
+  .hero label {
+    color: white;
+  }
+
+  .hero .form {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .hero .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hero #email {
+    border-radius: 20px;
   }
 }

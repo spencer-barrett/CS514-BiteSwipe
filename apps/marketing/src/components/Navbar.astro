@@ -1,0 +1,166 @@
+---
+import Container from "@/components/shared/Container.astro";
+import { navLinks, navCta } from "@/data/shared/navigationLinks";
+import { Menu, X } from "lucide-react";
+
+const currentPath = Astro.url.pathname;
+---
+
+<header
+  class="fixed top-0 z-50 w-full border-b border-white/10 bg-black backdrop-blur-md"
+>
+  <Container class="flex h-20 items-center justify-between">
+    <!-- Mobile menu button -->
+    <div class="w-10 md:hidden">
+      <button
+        id="mobile-menu-open"
+        class="p-2 text-white/70 hover:text-white"
+        aria-label="Open menu"
+      >
+        <Menu />
+      </button>
+    </div>
+
+    <!-- Logo: same treatment as the hero wordmark -->
+    <div class="flex flex-1 items-center justify-center md:justify-start">
+      <a
+        href="/"
+        aria-label="BiteSwipe home"
+        class="text-xl font-black tracking-tight"
+      >
+        <span class="text-brand">Bite</span><span class="text-white">Swipe</span
+        >
+      </a>
+    </div>
+
+    <!-- Desktop navigation -->
+    <nav class="hidden items-center gap-10 md:flex">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              "text-sm font-semibold transition-colors",
+              link.match(currentPath)
+                ? "link-active text-white"
+                : "text-white/80 hover:text-white",
+            ]}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <!-- CTA: also balances the logo so the nav stays centred -->
+    <div class="hidden flex-1 justify-end md:flex">
+      <a
+        href={navCta.href}
+        class="rounded-full bg-brand px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand/90"
+      >
+        {navCta.label}
+      </a>
+    </div>
+    <div class="w-10 md:hidden"></div>
+  </Container>
+</header>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" class="pointer-events-none fixed inset-0 z-100 md:hidden">
+  <div
+    id="mobile-menu-backdrop"
+    class="absolute inset-0 bg-black/0 transition-colors duration-300"
+  >
+  </div>
+
+  <nav
+    id="mobile-menu-panel"
+    class="absolute top-0 left-0 flex h-full w-72 -translate-x-full flex-col bg-neutral-950 shadow-2xl transition-transform duration-300 ease-out"
+  >
+    <div
+      class="flex h-20 items-center justify-between border-b border-white/10 px-6"
+    >
+      <a href="/" class="text-lg font-black tracking-tight">
+        <span class="text-brand">Bite</span><span class="text-white">Swipe</span
+        >
+      </a>
+      <button
+        id="mobile-menu-close"
+        class="p-2 text-white/70 hover:text-white"
+        aria-label="Close menu"
+      >
+        <X />
+      </button>
+    </div>
+
+    <div class="flex-1 space-y-1 overflow-y-auto px-4 py-6">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              "block rounded-lg px-4 py-3 text-base font-semibold transition-colors",
+              link.match(currentPath)
+                ? "bg-brand/15 text-white"
+                : "text-white/70 hover:bg-white/5 hover:text-white",
+            ]}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </div>
+    <div class="border-t border-white/10 px-6 py-6">
+      <a
+        href={navCta.href}
+        class="block rounded-full bg-brand px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-brand/90"
+      >
+        {navCta.label}
+      </a>
+    </div>
+  </nav>
+</div>
+
+<script>
+  const openBtn = document.getElementById("mobile-menu-open");
+  const closeBtn = document.getElementById("mobile-menu-close");
+  const menu = document.getElementById("mobile-menu");
+  const backdrop = document.getElementById("mobile-menu-backdrop");
+  const panel = document.getElementById("mobile-menu-panel");
+
+  function openMenu() {
+    menu?.classList.remove("pointer-events-none");
+    backdrop?.classList.replace("bg-black/0", "bg-black/50");
+    panel?.classList.remove("-translate-x-full");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMenu() {
+    backdrop?.classList.replace("bg-black/50", "bg-black/0");
+    panel?.classList.add("-translate-x-full");
+    document.body.style.overflow = "";
+    setTimeout(() => menu?.classList.add("pointer-events-none"), 300);
+  }
+
+  openBtn?.addEventListener("click", openMenu);
+  closeBtn?.addEventListener("click", closeMenu);
+  backdrop?.addEventListener("click", closeMenu);
+</script>
+
+<style>
+  .link-active {
+    position: relative;
+  }
+
+  /* Sits on the header's bottom border: h-20 (80px) minus the text's
+     half-height leaves 30px below the label. */
+  .link-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-brand);
+  }
+</style>
