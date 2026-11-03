@@ -11,6 +11,6 @@ const app = initializeApp({
 
 export const auth = getAuth(app);
 
-if (import.meta.env.DEV) {
-  connectAuthEmulator(auth, "http://localhost:9099", { disableWarnings: true });
-}
+// if (import.meta.env.DEV) {
+//   connectAuthEmulator(auth, "http://localhost:9099", { disableWarnings: true });
+// }
